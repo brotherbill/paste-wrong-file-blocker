@@ -1,0 +1,12 @@
+out/test
+src
+tsconfig.ts
+tsconfig.json
+.vscode
+.git
+.gitignore
+node_modules/@types
+node_modules/typescript
+node_modules/vsce
+**/*.map
+**/*.ts
