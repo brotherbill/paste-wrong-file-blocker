@@ -62,4 +62,22 @@ PasteShield‑Lite is now:
 - Confirmed no further files are needed for deterministic operation.
 - Prepared to continue with next operator action.
 
+### 2026‑05‑17 — 14:57 EDT — Prevented unintended TypeScript downgrade
+
+- npm attempted to replace typescript ^5.9.3 with ^5.4.0.
+- Blocked downgrade to preserve deterministic compiler alignment.
+- Correct action: retain TypeScript 5.9.3 as devDependency.
+
+### 2026‑05‑17 — 15:03 EDT — Footer logic refined to ignore trailing newline/CRLF
+
+- Operator clarified that trailing newline or CRLF must not terminate footer scan.
+- Footer must be last semantic line, not last physical line.
+- Updated footer scanner to skip trailing whitespace and sourcemap lines, stopping only on semantic empty lines.
+
+### 2026‑05‑17 — 15:11 EDT — Clean rebuild successful
+
+- out/extension.js and out/extension.js.map regenerated with fresh timestamps.
+- Footer-scanner fix now compiled into output.
+- Build pipeline confirmed deterministic and stable.
+
 ###### End of Section <chat.md>
