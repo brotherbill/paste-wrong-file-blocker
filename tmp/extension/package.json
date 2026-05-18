@@ -1,0 +1,42 @@
+{
+  "name": "paste-shield-internal",
+  "displayName": "PasteShield (Internal)",
+  "description": "Deterministic paste interceptor with Safe‑Pass header/footer validation.",
+  "version": "0.0.1",
+  "publisher": "internal",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:pasteShieldInternal.paste"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "pasteShieldInternal.paste",
+        "title": "PasteShield Internal: Paste"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "pasteShieldInternal.paste",
+        "key": "ctrl+v",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.9.3",
+    "vsce": "^2.15.0"
+  }
+}
