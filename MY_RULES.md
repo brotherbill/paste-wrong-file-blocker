@@ -1,6 +1,6 @@
+###### Start of Document \<C:/dev/repos/paste-shield/MY_RULES.md\>
 # MY_RULES.md  
-### Purpose: Defines the operator‑grade rules governing all artifacts in the PasteShield repository  
-###### <C:/dev/repos/paste-shield/MY_RULES.md>
+### Purpose: Defines the operator‑grade rules governing all artifacts in the PasteShield repository
 
 ---------------------------------------------------------------------
 
@@ -241,16 +241,17 @@ Non‑binding, human‑oriented content.
 ### 5.4 Marked Document Requirements  
 Mandatory Elements:
 
-1. **Header Identity Line**  
-   Composite pattern:  
+1. **Start of Document Wrapper**  
    ```
-   <\<path\>\<filename\>>
+   ###### Start of Document \<absolute-path/filename\>
    ```
 
-2. **Footer Termination Line**  
+2. **End of Document Wrapper**  
    ```
-   ###### End of Document <filename>
+   ###### End of Document \<absolute-path/filename\>
    ```
+
+These two lines define the identity wrapper for all doctrinal and identity‑bearing files.
 
 ### 5.4.3 Syntax‑Restricted File Exemption  
 Files without comment support (e.g., `.json`, `.lock`) are exempt.
@@ -350,13 +351,13 @@ If normalized text matches canonical form, it is valid.
 ### 11.2 Duplicate Header/Footer Rejection  
 If pasted content contains:
 
-- more than one header, or  
-- more than one footer  
+- more than one Start wrapper, or  
+- more than one End wrapper  
 
 → paste is rejected.
 
-A valid document contains exactly one header and exactly one footer.
+A valid document contains exactly one Start wrapper and exactly one End wrapper.
 
 ---------------------------------------------------------------------
 
-###### End of Document <MY_RULES.md>
+###### End of Document \<C:/dev/repos/paste-shield/MY_RULES.md\>

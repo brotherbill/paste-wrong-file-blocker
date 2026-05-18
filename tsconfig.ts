@@ -1,6 +1,6 @@
 // tsconfig.ts
-// Typed source-of-truth configuration for PasteShield (Internal Only)
-// <C:/dev/repos/paste-shield/tsconfig.ts>
+// Typed source-of-truth configuration for Paste Wrong File Blocker (Internal Only)
+// \<C:/dev/repos/paste-wrong-file-blocker/tsconfig.ts\>
 
 export const tsconfig = {
     compilerOptions: {
@@ -17,4 +17,4 @@ export const tsconfig = {
     include: ["src"]
 };
 
-// End of Document <tsconfig.ts>
+// End of Document \<C:/dev/repos/paste-wrong-file-blocker/tsconfig.ts\>

@@ -1,6 +1,5 @@
-// build.js
-// Deterministic build script for PasteShield (Internal Only)
-// <C:/dev/repos/paste-shield/build.js>
+// Start of Document \<C:/dev/repos/paste-wrong-file-blocker/build.js\>
+// Deterministic build script for Paste Wrong File Blocker (Internal Only)
 
 const { execSync } = require("child_process");
 const { writeFileSync } = require("fs");
@@ -16,4 +15,4 @@ writeFileSync(
 // Run TypeScript compiler
 execSync("npx tsc -p ./", { stdio: "inherit" });
 
-// End of Document <build.js>
+// End of Document \<C:/dev/repos/paste-wrong-file-blocker/build.js\>

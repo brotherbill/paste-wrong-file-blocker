@@ -1,9 +1,9 @@
+###### Start of Document \<C:/dev/PasteShield/notes/chat.md\>
 # notes/chat.md
 ### Purpose  
 Record session‑level events, decisions, and factual outcomes.  
 No narrative. No interpretation. No future tense.  
 Append‑only.
-###### C:\dev\PasteShield\notes\chat.md
 
 ## Session: Completion of Sections 0 and 1 (MY_RULES.md)
 
@@ -80,4 +80,17 @@ PasteShield‑Lite is now:
 - Footer-scanner fix now compiled into output.
 - Build pipeline confirmed deterministic and stable.
 
-###### End of Section <chat.md>
+### 2026‑05‑18 — 18:31 EDT — MY_RULES.md identity correction required
+
+- Detected stale identity wrappers referencing paste‑shield instead of paste‑wrong-file-blocker.
+- MY_RULES.md requires full path correction and Ugly‑Betty escaping.
+- No doctrinal content changes identified; issue is identity‑wrapper drift only.
+- Next action: regenerate MY_RULES.md with corrected wrappers.
+
+### 2026‑05‑18 — 19:01 EDT — MY_RULES.md review completed
+
+- Reviewed MY_RULES.md for doctrinal alignment and structural correctness.
+- No content changes made; document remains authoritative and stable.
+- Next action: await user instruction for identity‑wrapper correction pass.
+
+###### End of Document \<C:/dev/PasteShield/notes/chat.md\>

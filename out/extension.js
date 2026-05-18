@@ -1,5 +1,5 @@
 "use strict";
-// <C:/dev/repos/paste-wrong-file-blocker/src/extension.ts>
+// Start of Document \<C:/dev/repos/paste-wrong-file-blocker/out/extension.js\>
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     var desc = Object.getOwnPropertyDescriptor(m, k);
@@ -75,5 +75,5 @@ async function validateClipboardAgainstFile() {
     return true;
 }
 function deactivate() { }
-// End of Document <extension.ts>
+// End of Document \<C:/dev/repos/paste-wrong-file-blocker/out/extension.js\>
 //# sourceMappingURL=extension.js.map

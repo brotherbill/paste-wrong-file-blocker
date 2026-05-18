@@ -1,4 +1,4 @@
-// <C:/dev/repos/paste-wrong-file-blocker/src/extension.ts>
+// Start of Document \<C:/dev/repos/paste-wrong-file-blocker/src/extension.ts\>
 
 import * as vscode from "vscode";
 
@@ -50,4 +50,4 @@ async function validateClipboardAgainstFile(): Promise<boolean> {
 
 export function deactivate() {}
 
-// End of Document <extension.ts>
+// End of Document \<C:/dev/repos/paste-wrong-file-blocker/src/extension.ts\>

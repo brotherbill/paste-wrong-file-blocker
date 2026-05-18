@@ -1,6 +1,6 @@
+###### Start of Document \<C:/dev/repos/paste-wrong-file-blocker/OPERATIONS.md\>
 # OPERATIONS  
-Purpose: Defines operator procedures for using, controlling, and recovering PasteShield.  
-###### <C:/dev/repos/paste-shield/OPERATIONS.md>
+Purpose: Defines operator procedures for using, controlling, and recovering Paste Wrong File Blocker.
 
 ---
 
@@ -15,18 +15,18 @@ The operator must:
 - Maintain a clean environment (no conflicting extensions).  
 - Ensure `.md` documents contain valid header/footer structure.
 
-PasteShield does not compensate for operator negligence.
+Paste Wrong File Blocker does not compensate for operator negligence.
 
 ---
 
 ## 2. Normal Operation  
 
 ### 2.1 Triggering Paste  
-PasteShield is invoked when the operator performs:
+Paste Wrong File Blocker is invoked when the operator performs:
 
 - `Ctrl+V`  
 - Edit → Paste  
-- `paste-shield.paste` command  
+- `paste-wrong-file-blocker.paste` command  
 
 ### 2.2 Expected Behavior  
 - If the paste does **not** replace the entire document, the paste proceeds normally.  
@@ -40,7 +40,7 @@ PasteShield is invoked when the operator performs:
 ## 3. Blocked Paste Behavior  
 
 ### 3.1 Conditions for Blocking  
-PasteShield blocks the paste when:
+Paste Wrong File Blocker blocks the paste when:
 
 - Clipboard text would overwrite the entire file.  
 - Clipboard text matches the full document exactly.  
@@ -77,8 +77,8 @@ Overrides are allowed only when:
    ```
    confirmPasteOverride
    ```  
-4. PasteShield performs the paste atomically.  
-5. PasteShield logs the event.  
+4. Paste Wrong File Blocker performs the paste atomically.  
+5. Paste Wrong File Blocker logs the event.  
 6. Status bar displays confirmation.
 
 ### 4.3 Override Restrictions  
@@ -87,25 +87,25 @@ Overrides are allowed only when:
 - No autofill.  
 - No shortcuts.  
 - No bypassing the modal.  
-- No repeated overrides; disable PasteShield instead.
+- No repeated overrides; disable Paste Wrong File Blocker instead.
 
 ---
 
-## 5. Disabling PasteShield  
-PasteShield may be disabled only when:
+## 5. Disabling Paste Wrong File Blocker  
+Paste Wrong File Blocker may be disabled only when:
 
 - Multiple overrides are required in a single session, or  
 - The operator is performing bulk document replacement.
 
 ### 5.1 Disable Procedure  
 1. Open VS Code Extensions panel.  
-2. Locate “PasteShield (Internal)”.  
+2. Locate “Paste Wrong File Blocker (Internal)”.  
 3. Select **Disable**.
 
 ### 5.2 Re‑Enable Procedure  
 1. Open VS Code Extensions panel.  
 2. Select **Enable**.  
-3. PasteShield resumes full safety immediately.
+3. Paste Wrong File Blocker resumes full safety immediately.
 
 ---
 
@@ -119,14 +119,14 @@ PasteShield may be disabled only when:
 - If behavior persists, file a defect.
 
 ### 6.2 Paste Does Not Occur  
-- Confirm PasteShield is enabled.  
+- Confirm Paste Wrong File Blocker is enabled.  
 - Confirm modal was acknowledged.  
 - Confirm no other extension overrides paste.  
 - Retry operation.
 
 ### 6.3 Unexpected Mutation  
 This is a critical defect.  
-Stop using PasteShield immediately and document:
+Stop using Paste Wrong File Blocker immediately and document:
 
 - steps taken  
 - clipboard contents  
@@ -137,7 +137,7 @@ Stop using PasteShield immediately and document:
 ---
 
 ## 7. Success Condition  
-PasteShield is operating correctly when:
+Paste Wrong File Blocker is operating correctly when:
 
 - Normal pastes occur without modal.  
 - Full‑document replacements trigger modal.  
@@ -149,4 +149,4 @@ PasteShield is operating correctly when:
 
 ---
 
-###### End of Document <OPERATIONS.md>
+###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/OPERATIONS.md\>

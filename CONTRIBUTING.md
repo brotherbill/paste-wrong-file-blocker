@@ -1,6 +1,6 @@
+###### Start of Document \<C:/dev/repos/paste-wrong-file-blocker/CONTRIBUTING.md\>
 # CONTRIBUTING  
-Purpose: Defines the required procedures and invariants for contributing to PasteShield.  
-###### <C:/dev/repos/paste-shield/CONTRIBUTING.md>
+Purpose: Defines the required procedures and invariants for contributing to Paste Wrong File Blocker.
 
 ---
 
@@ -108,4 +108,4 @@ A change may be merged only when:
 
 ---
 
-###### End of Document <CONTRIBUTING.md>
+###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/CONTRIBUTING.md\>

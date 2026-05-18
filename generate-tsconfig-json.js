@@ -1,6 +1,5 @@
-// generate-tsconfig-json.js
+// Start of Document \<C:/dev/repos/paste-wrong-file-blocker/generate-tsconfig-json.js\>
 // Deterministic emitter for tsconfig.json (Internal Only)
-// <C:/dev/repos/paste-shield/generate-tsconfig-json.js>
 
 const { writeFileSync } = require("fs");
 const { tsconfig } = require("./tsconfig");
@@ -11,4 +10,4 @@ writeFileSync(
   { encoding: "utf8" }
 );
 
-// End of Document <generate-tsconfig-json.js>
+// End of Document \<C:/dev/repos/paste-wrong-file-blocker/generate-tsconfig-json.js\>

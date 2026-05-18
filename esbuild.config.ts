@@ -1,6 +1,5 @@
-// esbuild.config.ts
-// Deterministic esbuild bundler configuration for PasteShield (Internal Only)
-// <C:/dev/repos/paste-shield/esbuild.config.ts>
+// Start of Document \<C:/dev/repos/paste-wrong-file-blocker/esbuild.config.ts\>
+// Deterministic esbuild bundler configuration for Paste Wrong File Blocker (Internal Only)
 
 import { build } from "esbuild";
 
@@ -14,4 +13,4 @@ build({
     external: ["vscode"]
 }).catch(() => process.exit(1));
 
-// End of Document <esbuild.config.ts>
+// End of Document \<C:/dev/repos/paste-wrong-file-blocker/esbuild.config.ts\>

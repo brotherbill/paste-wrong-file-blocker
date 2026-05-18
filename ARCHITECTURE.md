@@ -1,6 +1,6 @@
+###### Start of Document \<C:/dev/repos/paste-shield/ARCHITECTURE.md\>
 # ARCHITECTURE  
-Purpose: Defines the structural components and operational invariants of PasteShield.  
-###### <C:/dev/repos/paste-shield/ARCHITECTURE.md>
+Purpose: Defines the structural components and operational invariants of PasteShield.
 
 ---
 
@@ -178,4 +178,4 @@ Any new feature must:
 
 ---
 
-###### End of Document <ARCHITECTURE.md>
+###### End of Document \<C:/dev/repos/paste-shield/ARCHITECTURE.md\>

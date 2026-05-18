@@ -1,13 +1,13 @@
+###### Start of Document \<C:/dev/repos/paste-wrong-file-blocker/TEST_PLAN.md\>
 # TEST_PLAN  
-Purpose: Defines deterministic procedures for verifying all PasteShield behaviors.  
-###### <C:/dev/repos/paste-shield/TEST_PLAN.md>
+Purpose: Defines deterministic procedures for verifying all Paste Wrong File Blocker behaviors.
 
 ---
 
 ## 1. Preconditions  
 All tests require:
 
-- PasteShield installed and enabled  
+- Paste Wrong File Blocker installed and enabled  
 - VS Code stable with no pending updates  
 - No other paste‑intercepting extensions active  
 - A clean workspace  
@@ -166,7 +166,7 @@ Modal must display:
 ### 8.1 Whitespace‑Tolerant Header  
 **Clipboard:**  
 ```
-   <C:/dev/repos/paste-shield/MY_RULES.md>    
+   <C:/dev/repos/paste-wrong-file-blocker/MY_RULES.md>    
 ```
 
 **Steps:**  
@@ -176,7 +176,7 @@ Modal must display:
 - Paste allowed  
 - Header normalized to:  
   ```
-  <C:/dev/repos/paste-shield/MY_RULES.md>
+  <C:/dev/repos/paste-wrong-file-blocker/MY_RULES.md>
   ```  
 - No UB  
 
@@ -204,8 +204,8 @@ Modal must display:
 ### 8.3 Duplicate Header Rejection  
 **Clipboard:**  
 ```
-<C:/dev/repos/paste-shield/MY_RULES.md>
-<C:/dev/repos/paste-shield/OTHER.md>
+<C:/dev/repos/paste-wrong-file-blocker/MY_RULES.md>
+<C:/dev/repos/paste-wrong-file-blocker/OTHER.md>
 
 (body)
 
@@ -227,7 +227,7 @@ Modal must display:
 ### 8.4 Duplicate Footer Rejection  
 **Clipboard:**  
 ```
-<C:/dev/repos/paste-shield/MY_RULES.md>
+<C:/dev/repos/paste-wrong-file-blocker/MY_RULES.md>
 
 (body)
 
@@ -249,7 +249,7 @@ Modal must display:
 ### 8.5 Header/Footer Mixed Whitespace and Validity  
 **Clipboard:**  
 ```
-   <C:/dev/repos/paste-shield/TEST_PLAN.md>
+   <C:/dev/repos/paste-wrong-file-blocker/TEST_PLAN.md>
 
 (body)
 
@@ -294,7 +294,7 @@ Modal must display:
 ---
 
 ## 10. Success Criteria  
-PasteShield passes the test suite when:
+Paste Wrong File Blocker passes the test suite when:
 
 - all normal pastes succeed  
 - all blocked pastes block  
@@ -307,4 +307,4 @@ PasteShield passes the test suite when:
 
 ---
 
-###### End of Document <TEST_PLAN.md>
+###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/TEST_PLAN.md\>

@@ -1,14 +1,14 @@
-# PasteShield (Internal Only)  
-Purpose: Prevent catastrophic full‑document replacement during paste operations inside VS Code.  
-###### <C:/dev/repos/paste-shield/README.md>
+###### Start of Document \<C:/dev/repos/paste-wrong-file-blocker/README.md\>
+# Paste Wrong File Blocker (Internal Only)  
+Purpose: Prevent catastrophic full‑document replacement during paste operations inside VS Code.
 
 ---
 
 ## 1. Overview  
-PasteShield is an internal‑only VS Code extension that intercepts paste operations and prevents accidental full‑document replacement.  
+Paste Wrong File Blocker is an internal‑only VS Code extension that intercepts paste operations and prevents accidental full‑document replacement.  
 It functions as a deterministic safety diode for operator workflows on Windows and on the System76 machine when accessed through VS Code.
 
-PasteShield contains:
+Paste Wrong File Blocker contains:
 
 - no telemetry  
 - no dependencies  
@@ -23,18 +23,18 @@ This version implements the **core safety model**, including:
 - header/footer normalization  
 - duplicate header/footer rejection  
 
-It does **not** implement the full sovereign‑grade PasteShield protocol (hashing, invariants, identity matrix, multi‑cursor safety).
+It does **not** implement the full sovereign‑grade protocol (hashing, invariants, identity matrix, multi‑cursor safety).
 
 ---
 
 ## 2. Scope  
 
-PasteShield applies only to:
+Paste Wrong File Blocker applies only to:
 
 - VS Code on Windows  
 - VS Code on Ubuntu (via RustDesk)
 
-PasteShield does **not** apply to:
+Paste Wrong File Blocker does **not** apply to:
 
 - Benny’s machine  
 - Rider  
@@ -64,22 +64,33 @@ PasteShield does **not** apply to:
 ## 4. Directory Structure  
 
 ```
-paste-shield/
-├── package.json
-└── extension.js
+paste-wrong-file-blocker/
+├── build.ts
+├── esbuild.config.ts
+├── generate-tsconfig-json.js
+├── generate-tsconfig-json.ts
+├── tsconfig.ts
+├── out/
+└── src/
+    └── extension.ts
 ```
 
-No build step.  
-No bundler.  
-No TypeScript.  
-No generated artifacts.
+This repository uses a **deterministic build pipeline**:
+
+- TypeScript source‑of‑truth  
+- deterministic `tsconfig.json` emitter  
+- deterministic esbuild bundling  
+- no dynamic imports  
+- no runtime dependencies  
+
+All generated artifacts are stable and reproducible.
 
 ---
 
 ## 5. Installation (Internal Only)
 
 ### Option A — Run in Extension Host  
-1. Open the `paste-shield` folder in VS Code.  
+1. Open the `paste-wrong-file-blocker` folder in VS Code.  
 2. Press **F5** to launch the Extension Host environment.
 
 ### Option B — Install as a packaged extension  
@@ -92,18 +103,18 @@ No generated artifacts.
 2. Install the generated `.vsix`:
 
    ```
-   code --install-extension paste-shield-0.1.0.vsix
+   code --install-extension paste-wrong-file-blocker-X.Y.Z.vsix
    ```
 
 3. Restart VS Code.
 
-PasteShield activates automatically.
+Paste Wrong File Blocker activates automatically.
 
 ---
 
 ## 6. Usage  
 
-PasteShield replaces the default paste command.  
+Paste Wrong File Blocker replaces the default paste command.  
 Pressing **Ctrl+V** inside an editor triggers the shield.
 
 ### Behavior  
@@ -137,7 +148,7 @@ Header/footer behavior:
 ## 8. Notes  
 
 This is a temporary internal tool.  
-A future version will implement the full PasteShield protocol, including:
+A future version may implement the full sovereign‑grade protocol, including:
 
 - header/body/tail segmentation  
 - invariant enforcement  
@@ -150,4 +161,4 @@ This version exists only to protect the operator during early development.
 
 ---
 
-###### End of Document <README.md>
+###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/README.md\>
