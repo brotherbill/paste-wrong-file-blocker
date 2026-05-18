@@ -1,42 +1,41 @@
 {
-  "name": "paste-shield-internal",
-  "displayName": "PasteShield (Internal)",
-  "description": "Deterministic paste interceptor with Safe‑Pass header/footer validation.",
-  "version": "0.0.1",
-  "publisher": "internal",
+  "name": "paste-wrong-file-blocker",
+  "displayName": "Paste Wrong File Blocker",
+  "description": "Blocks unsafe pastes that would overwrite or corrupt the current file.",
+  "version": "0.0.3",
+  "publisher": "brotherbill",
   "engines": {
     "vscode": "^1.85.0"
   },
-  "categories": [
-    "Other"
-  ],
-  "activationEvents": [
-    "onCommand:pasteShieldInternal.paste"
-  ],
   "main": "./out/extension.js",
+  "activationEvents": [
+    "onCommand:pasteWrongFileBlocker.paste",
+    "onCommand:editor.action.clipboardPasteAction"
+  ],
+  "scripts": {
+    "compile": "tsc -p ./",
+    "package": "vsce package"
+  },
   "contributes": {
     "commands": [
       {
-        "command": "pasteShieldInternal.paste",
-        "title": "PasteShield Internal: Paste"
+        "command": "editor.action.clipboardPasteAction",
+        "title": "Paste Wrong File Blocker: Paste"
+      },
+      {
+        "command": "pasteWrongFileBlocker.paste",
+        "title": "Paste Wrong File Blocker: Paste (Ctrl+V)"
       }
     ],
     "keybindings": [
       {
-        "command": "pasteShieldInternal.paste",
+        "command": "pasteWrongFileBlocker.paste",
         "key": "ctrl+v",
         "when": "editorTextFocus"
       }
     ]
   },
-  "scripts": {
-    "compile": "tsc -p ./",
-    "watch": "tsc -watch -p ./",
-    "package": "vsce package"
-  },
-  "devDependencies": {
-    "@types/vscode": "^1.85.0",
-    "typescript": "^5.9.3",
-    "vsce": "^2.15.0"
-  }
+  "categories": [
+    "Other"
+  ]
 }
