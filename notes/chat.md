@@ -93,4 +93,12 @@ PasteShield‑Lite is now:
 - No content changes made; document remains authoritative and stable.
 - Next action: await user instruction for identity‑wrapper correction pass.
 
+### 2026‑05‑19 — 07:53 EDT — Paste Wrong File Blocker upgraded to v0.0.4
+
+- Workspace Trust restored extension activation; paste‑interception logic re‑enabled.
+- Packaged and installed Paste Wrong File Blocker v0.0.4 via VSIX.
+- VS Code replaced v0.0.3 automatically using matching extension identity.
+- PasteShield (Internal) confirmed obsolete and ready for removal.
+- Shield ecosystem unified under a single authoritative extension and version lineage.
+
 ###### End of Document \<C:/dev/PasteShield/notes/chat.md\>

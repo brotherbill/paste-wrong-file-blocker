@@ -2,10 +2,14 @@
   "name": "paste-wrong-file-blocker",
   "displayName": "Paste Wrong File Blocker",
   "description": "Blocks unsafe pastes that would overwrite or corrupt the current file.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "brotherbill",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brotherbill/paste-wrong-file-blocker.git"
+  },
   "engines": {
-    "vscode": "^1.85.0"
+    "vscode": "^1.120.0"
   },
   "main": "./out/extension.js",
   "activationEvents": [
@@ -37,5 +41,11 @@
   },
   "categories": [
     "Other"
-  ]
+  ],
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^25.9.0",
+    "@types/vscode": "^1.120.0",
+    "typescript": "^6.0.3"
+  }
 }

@@ -1,5 +1,5 @@
 "use strict";
-// Start of Document \<C:/dev/repos/paste-wrong-file-blocker/out/extension.js\>
+// Start of Document <C:/dev/repos/paste-shield/src/extension.ts>
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     var desc = Object.getOwnPropertyDescriptor(m, k);
@@ -37,43 +37,34 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.activate = activate;
 exports.deactivate = deactivate;
 const vscode = __importStar(require("vscode"));
-function activate(context) {
-    //
-    // Unified paste handler — all paste vectors funnel here.
-    //
-    const handler = async () => {
-        const isSafe = await validateClipboardAgainstFile();
-        if (!isSafe) {
-            vscode.window.showErrorMessage("Paste blocked by Paste Wrong File Blocker.");
-            return;
-        }
-        //
-        // SAFE → perform the real paste using the built‑in implementation.
-        //
-        await vscode.commands.executeCommand("editor.action.clipboardPasteAction");
-    };
-    //
-    // Register explicit Ctrl+V command.
-    //
-    context.subscriptions.push(vscode.commands.registerCommand("pasteWrongFileBlocker.paste", handler));
-}
-//
-// VALIDATION LOGIC
-// Placeholder. Replace with Safe‑Pass header/footer validation.
-//
-async function validateClipboardAgainstFile() {
+const validation_1 = require("./validation");
+async function performValidatedPaste() {
     const editor = vscode.window.activeTextEditor;
     if (!editor) {
-        return false;
+        return;
     }
     const clipboardText = await vscode.env.clipboard.readText();
-    const documentText = editor.document.getText();
-    //
-    // TODO: Replace with real Safe‑Pass header/footer validation.
-    // Current behavior: always allow.
-    //
-    return true;
+    if (!clipboardText || clipboardText.length === 0) {
+        await vscode.window.showErrorMessage("Paste blocked: Clipboard is empty.", { modal: true });
+        return;
+    }
+    const validation = (0, validation_1.validateHeaderFooter)(clipboardText);
+    if (!validation.ok) {
+        const code = validation.code ?? "UNKNOWN";
+        const reason = validation.reason ?? "Unspecified validation failure";
+        await vscode.window.showErrorMessage(`Paste blocked (${code}): ${reason}`, { modal: true });
+        return;
+    }
+    await vscode.commands.executeCommand("editor.action.clipboardPasteAction");
 }
-function deactivate() { }
-// End of Document \<C:/dev/repos/paste-wrong-file-blocker/out/extension.js\>
+function activate(context) {
+    const disposable = vscode.commands.registerCommand("pasteShield.pasteWithValidation", async () => {
+        await performValidatedPaste();
+    });
+    context.subscriptions.push(disposable);
+}
+function deactivate() {
+    // No-op: included for completeness and future extension.
+}
+// End of Document <C:/dev/repos/paste-shield/src/extension.ts>
 //# sourceMappingURL=extension.js.map
