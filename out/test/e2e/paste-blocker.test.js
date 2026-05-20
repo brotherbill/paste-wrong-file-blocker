@@ -141,4 +141,3 @@ suite("PasteShield E2E — Header/Footer Validation", () => {
     });
 });
 // End of Document <C:/dev/repos/paste-shield/src/test/e2e/paste-blocker.test.ts>
-//# sourceMappingURL=paste-blocker.test.js.map

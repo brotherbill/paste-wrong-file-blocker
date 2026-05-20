@@ -127,4 +127,26 @@ Repository state is deterministic and aligned.
 - Prepared repository for full E2E execution.
 - No invariants altered; repository state remains deterministic and aligned.
 
+## 2026‑05‑20 — 01:41 EDT — Extension Installation Safety Doctrine Bundle Completed
+
+### Summary
+Completed the full installation‑safety doctrine suite for Paste Wrong File Blocker.
+All installation workflows are now deterministic, cross‑platform safe, and aligned with MY_RULES.md §5 identity requirements.
+
+### Actions Taken
+- Added `docs/install-vsix.md` defining mandatory PowerShell‑only installation rule.
+- Added `docs/policies/install-vsix-policy.md` defining enforceable installation policy.
+- Added `docs/installation-troubleshooting.md` defining deterministic recovery steps.
+- Added `docs/installation-uninstall.md` defining PowerShell‑only uninstall procedure.
+- Added `docs/installation-doctrine-index.md` defining canonical doctrine index.
+- Standardized path format to `/C/...` for cross‑platform clarity.
+- Ensured all documents use Ugly‑Betty identity wrappers with escaped angle brackets in header/footer only.
+- Verified doctrinal alignment with MY_RULES.md and repository identity.
+
+### State
+Repository is deterministic.
+Installation workflows are governed.
+Doctrine is aligned.
+No drift detected.
+
 ###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/notes/chat.md\>
