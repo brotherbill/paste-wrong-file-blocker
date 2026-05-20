@@ -2,7 +2,7 @@
   "name": "paste-wrong-file-blocker",
   "displayName": "Paste Wrong File Blocker",
   "description": "Blocks pasting content when the Start/End wrapper counts do not match.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "missioncriticalsoftware",
   "engines": {
     "vscode": "^1.85.0"

@@ -120,4 +120,11 @@ No invariants were altered.
 No rules were modified.
 Repository state is deterministic and aligned.
 
+### 2026-05-19 23:45 EDT - Paste Wrong File Blocker advanced to v0.0.5 — E2E test harness added
+
+- Added initial E2E test harness structure.
+- Defined A-series valid cases, B-series invalid cases, and C1 structural deception case.
+- Prepared repository for full E2E execution.
+- No invariants altered; repository state remains deterministic and aligned.
+
 ###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/notes/chat.md\>

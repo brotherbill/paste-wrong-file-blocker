@@ -5,6 +5,11 @@
 All changes to this repository are documented in this file.
 Entries must be deterministic, literal, and aligned with MY_RULES.md.
 
+### 0.0.5
+- Added initial E2E test harness structure
+- Defined A-series, B-series, and C1 execution cases
+- Prepared repository for full E2E execution
+
 ### 0.0.4
 - Added wrapper‑based paste validation
 - Added command: pasteShield.pasteWithValidation
