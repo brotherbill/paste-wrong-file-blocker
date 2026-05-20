@@ -1,47 +1,27 @@
 {
   "name": "paste-wrong-file-blocker",
   "displayName": "Paste Wrong File Blocker",
-  "description": "Blocks unsafe pastes that would overwrite or corrupt the current file.",
+  "description": "Blocks pasting content when the Start/End wrapper counts do not match.",
   "version": "0.0.4",
-  "publisher": "brotherbill",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/brotherbill/paste-wrong-file-blocker.git"
-  },
+  "publisher": "missioncriticalsoftware",
   "engines": {
-    "vscode": "^1.120.0"
-  },
-  "main": "./out/extension.js",
-  "activationEvents": [
-    "onCommand:pasteWrongFileBlocker.paste",
-    "onCommand:editor.action.clipboardPasteAction"
-  ],
-  "scripts": {
-    "compile": "tsc -p ./",
-    "package": "vsce package"
-  },
-  "contributes": {
-    "commands": [
-      {
-        "command": "editor.action.clipboardPasteAction",
-        "title": "Paste Wrong File Blocker: Paste"
-      },
-      {
-        "command": "pasteWrongFileBlocker.paste",
-        "title": "Paste Wrong File Blocker: Paste (Ctrl+V)"
-      }
-    ],
-    "keybindings": [
-      {
-        "command": "pasteWrongFileBlocker.paste",
-        "key": "ctrl+v",
-        "when": "editorTextFocus"
-      }
-    ]
+    "vscode": "^1.85.0"
   },
   "categories": [
     "Other"
   ],
+  "activationEvents": [
+    "onCommand:pasteShield.pasteWithValidation"
+  ],
+  "main": "./src/extension.ts",
+  "contributes": {
+    "commands": [
+      {
+        "command": "pasteShield.pasteWithValidation",
+        "title": "Paste with Validation"
+      }
+    ]
+  },
   "devDependencies": {
     "@types/mocha": "^10.0.10",
     "@types/node": "^25.9.0",

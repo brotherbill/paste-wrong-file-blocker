@@ -1,15 +1,19 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "es2020",
-    "outDir": "out",
-    "rootDir": "src",
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "strict": true,
-    "sourceMap": true,
-    "noImplicitAny": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "types": ["node", "vscode", "mocha"]
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": "src",
+    "outDir": "out",
+    "types": [
+      "vscode"
+    ]
   },
-  "include": ["src", "src/test"]
+  "include": [
+    "src"
+  ]
 }

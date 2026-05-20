@@ -1,145 +1,112 @@
-###### Start of Document \<C:/dev/repos/paste-wrong-file-blocker/GOVERNANCE.md\>
-# GOVERNANCE  
-Purpose: Defines authority, decision‑making, and escalation rules for the Paste Wrong File Blocker repository.
+###### Start of Document \<C:/dev/repos/paste-wrong-file-blocker/GOVERNANCE.md>
+
+# Project Governance
+
+Paste Wrong File Blocker is maintained according to deterministic, operator‑grade principles.  
+This document defines how decisions are made, who has authority, and how changes enter the project.
 
 ---
 
-## 1. Authority Model  
-Paste Wrong File Blocker governance follows a single‑source‑of‑truth model:
+## 1. Maintainer Authority
 
-1. **MY_RULES.md is supreme.**  
-2. All other artifacts derive authority from MY_RULES.md.  
-3. No artifact may override MY_RULES.md.  
-4. Silence in MY_RULES.md requires rule creation, not assumption.  
-5. All decisions must preserve determinism and prevent UB.
+The project has a single maintainer:
 
----
+**Brother Bill (@brotherbill)**  
+MissionCriticalSoftware.dev
 
-## 2. Maintainer Responsibilities  
-Maintainers must:
+The maintainer has final authority over:
 
-- Preserve determinism  
-- Prevent UB  
-- Enforce doctrinal alignment  
-- Reject contributions that introduce ambiguity  
-- Apply the Change Control Protocol to all modifications  
-- Maintain repository integrity at all times  
-- Ensure all artifacts follow Mandatory Elements  
-- Ensure header/footer rules are enforced in all `.md` and non‑exempt code files  
+- Architectural decisions  
+- Validation rule definitions  
+- Error code taxonomy  
+- Documentation standards  
+- Release cadence  
+- Acceptance or rejection of contributions  
 
-Maintainers may not introduce:
-
-- personal preference  
-- stylistic drift  
-- undocumented behavior  
-- hidden state  
-- background behavior  
+All decisions must preserve determinism, clarity, and operator‑grade behavior.
 
 ---
 
-## 3. Decision‑Making Rules  
+## 2. Decision‑Making Model
 
-### 3.1 Rule Changes  
-Any change to MY_RULES.md must follow:
+### **2.1 Deterministic Governance**
+All decisions must be:
 
-- deliberate justification  
-- formal self‑review  
-- documented rationale  
-- traceable commit history  
-- stability and reversibility requirements  
-- zero ambiguity  
-- zero drift  
+- Explicit  
+- Reproducible  
+- Documented  
+- Justified with observable behavior  
 
-### 3.2 Behavioral Changes  
-Any change to extension behavior must:
+No decisions may rely on intuition, guesswork, or implicit assumptions.
 
-1. Define new rules in MY_RULES.md **before** implementation  
-2. Update all documentation  
-3. Update TEST_PLAN.md  
-4. Update ARCHITECTURE.md  
-5. Preserve all invariants  
-6. Introduce no UB  
+### **2.2 Change Proposals**
+Significant changes require:
 
-### 3.3 Documentation Changes  
-Documentation may be updated only when:
+1. A GitHub issue describing the proposal  
+2. A justification grounded in deterministic behavior  
+3. A clear description of impact  
+4. Updated documentation if accepted  
 
-- it aligns with existing doctrine  
-- it clarifies behavior  
-- it removes ambiguity  
-- it introduces no new rules implicitly  
-- it preserves Mandatory Elements  
-- it preserves header/footer correctness  
+The maintainer reviews and approves or rejects proposals.
 
 ---
 
-## 4. Escalation Model  
-Escalation is required when:
+## 3. Release Process
 
-- UB is detected  
-- invariants are violated  
-- modal behavior deviates  
-- unexpected mutation occurs  
-- operator safety is compromised  
-- header/footer validation fails unexpectedly  
+Releases follow this sequence:
 
-Escalation steps:
+1. All changes merged into `main`  
+2. Version bump in `package.json`  
+3. Update `CHANGELOG.md`  
+4. Build VSIX  
+5. Manual validation of paste behavior  
+6. Publish to the VS Code Marketplace  
 
-1. Stop all development  
-2. Document the failure  
-3. Identify the violated rule  
-4. Update MY_RULES.md if doctrine is incomplete  
-5. Apply corrective changes  
-6. Re‑run full test matrix  
+No automated publishing is permitted.
 
 ---
 
-## 5. Conflict Resolution  
-Conflicts are resolved using the canonical pattern:
+## 4. Scope of Maintainer Responsibilities
 
-```
-IF (Artifact X conflicts with MY_RULES.md)
-THEN (Artifact X is incorrect)
-AND (Artifact X must be aligned with MY_RULES.md)
-BEFORE (X may influence the repository again)
-```
+The maintainer is responsible for:
 
-This applies to:
-
-- code  
-- comments  
-- documentation  
-- design notes  
-- CI/CD  
-- commit messages  
-- discussions  
-- operational procedures  
+- Ensuring zero drift in validation logic  
+- Maintaining documentation accuracy  
+- Reviewing contributions  
+- Enforcing the Code of Conduct  
+- Managing security disclosures  
+- Preserving architectural integrity  
 
 ---
 
-## 6. Governance Invariants  
-The following must always hold:
+## 5. Contributor Responsibilities
 
-- No undocumented behavior  
-- No silent changes  
-- No implicit assumptions  
-- No drift from doctrine  
-- No background behavior  
-- No weakening of safety guarantees  
-- No modification without traceability  
-- No violation of header/footer rules  
-- No acceptance of ambiguous contributions  
+Contributors must:
+
+- Follow deterministic coding practices  
+- Avoid formatting churn  
+- Provide reproducible steps for any reported issue  
+- Update documentation when behavior changes  
+- Respect the maintainer’s final decisions  
 
 ---
 
-## 7. Succession Rules  
-If maintainership changes:
+## 6. Conflict Resolution
 
-1. New maintainer must read MY_RULES.md in full  
-2. New maintainer must read ARCHITECTURE.md, SECURITY.md, OPERATIONS.md  
-3. New maintainer must acknowledge all invariants  
-4. No changes may occur until doctrinal understanding is demonstrated  
-5. New maintainer must run the full test matrix before making any modifications  
+If disagreements arise:
+
+1. Discussion occurs in the relevant GitHub issue or PR  
+2. Arguments must be technical, not personal  
+3. The maintainer makes the final decision  
+4. Decision is documented for future reference  
 
 ---
 
-###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/GOVERNANCE.md\>
+## 7. Amendments
+
+This governance document may be updated by the maintainer.  
+Changes must be documented in `CHANGELOG.md`.
+
+---
+
+###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/GOVERNANCE.md>

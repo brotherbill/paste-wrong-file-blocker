@@ -1,0 +1,24 @@
+# Enforce LF line endings for all text files
+* text=auto eol=lf
+
+# Treat TypeScript as text
+*.ts text
+
+# Treat Markdown as text
+*.md text
+
+# JSON files are text
+*.json text
+
+# VS Code extension packaging artifacts
+*.vsix binary
+
+# Images (if any added later)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg text
+
+# Prevent Git from attempting to diff compiled output
+/out/* linguist-generated

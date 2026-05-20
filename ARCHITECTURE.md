@@ -1,181 +1,130 @@
-###### Start of Document \<C:/dev/repos/paste-shield/ARCHITECTURE.md\>
-# ARCHITECTURE  
-Purpose: Defines the structural components and operational invariants of PasteShield.
+###### Start of Document \<C:/dev/repos/paste-wrong-file-blocker/ARCHITECTURE.md>
+
+# Architecture Overview
+
+Paste Wrong File Blocker is a deterministic VS Code extension designed to prevent accidental or unsafe paste operations.  
+The architecture is intentionally minimal, explicit, and operator‑grade.
 
 ---
 
-## 1. System Overview  
-PasteShield is a deterministic VS Code extension that intercepts paste operations and prevents accidental full‑document replacement.  
-The system contains:
+## 1. High‑Level Flow
 
-- no background processes  
-- no telemetry  
-- no timers  
-- no implicit behavior  
-- no hidden state  
-
-All behavior is explicitly triggered by operator action.
-
----
-
-## 2. Components  
-
-### 2.1 Command Layer  
-**File:** `extension.js`  
-**Responsibilities:**  
-- Register the `paste-shield.paste` command.  
-- Intercept paste operations.  
-- Evaluate invariants.  
-- Normalize header/footer lines.  
-- Reject duplicate header/footer lines.  
-- Detect full‑document replacement.  
-- Present modal dialogs when invariants are violated.  
-- Perform atomic paste on override.
-
-**Inputs:**  
-- Active editor  
-- Clipboard contents  
-- Document contents  
-
-**Outputs:**  
-- Normal paste  
-- Blocked paste  
-- Override modal  
-- Status bar confirmation  
-
----
-
-### 2.2 Manifest Layer  
-**File:** `package.json`  
-**Responsibilities:**  
-- Declare extension metadata  
-- Define activation events  
-- Define commands and keybindings  
-- Contain no logic  
-- Contain no side effects  
-
----
-
-### 2.3 Doctrine Layer  
-**File:** `MY_RULES.md`  
-**Responsibilities:**  
-- Define repository‑wide invariants  
-- Define safety model  
-- Define audience model  
-- Define UB boundaries  
-- Define header/footer validation rules  
-- Override all other artifacts  
-
----
-
-### 2.4 Documentation Layer  
-**Files:**  
-- `README.md`  
-- `CONTRIBUTING.md`  
-- `CHANGELOG.md`  
-- `TEST_PLAN.md`  
-- `ARCHITECTURE.md`  
-- `SECURITY.md`  
-- `OPERATIONS.md`  
-- `MAINTENANCE.md`  
-- `SUPPORT.md`  
-- `RELEASE.md`  
-- `INSTALLATION.md`  
-
-**Responsibilities:**  
-- Provide operator‑grade clarity  
-- Document behavior, constraints, and procedures  
-- Contain no hidden rules  
-- Contain no drift from MY_RULES.md  
-- Follow Mandatory Elements exactly  
-
----
-
-## 3. Operational Flow  
-
-### 3.1 Activation  
-1. VS Code loads the extension.  
-2. `paste-shield.paste` becomes available.  
-3. No background behavior occurs.  
-4. No state is initialized beyond command registration.
-
----
-
-### 3.2 Paste Interception  
-1. Operator triggers paste.  
-2. PasteShield reads:  
-   - clipboard text  
-   - document text  
-3. PasteShield performs:  
-   - header/footer normalization  
-   - duplicate header/footer detection  
-   - full‑document replacement detection  
-4. PasteShield selects one of three paths:  
-   - **Normal Paste**  
-   - **Blocked Paste**  
-   - **Override Paste (atomic)**  
-
----
-
-### 3.3 Modal Behavior  
-Modal appears only when full‑document replacement is detected.  
-Modal requires explicit operator confirmation.  
-No mutation occurs until override is confirmed.  
-Override requires exact typed string:  
 ```
-confirmPasteOverride
+User presses Ctrl+V
+        ↓
+Command: pasteShield.pasteWithValidation
+        ↓
+Clipboard text is retrieved
+        ↓
+validateHeaderFooter() runs full structural analysis
+        ↓
+If valid → perform actual paste
+If invalid → block and show modal error
 ```
 
 ---
 
-## 4. Invariants  
+## 2. Components
 
-### 4.1 Safety Invariants  
-- No background execution  
-- No clipboard mutation  
-- No automatic overrides  
-- No partial writes  
-- No cursor movement on blocked paste  
-- No undo‑stack pollution on blocked paste  
-- No UB introduced by extension behavior  
+### **2.1 extension.ts**
+- Registers the command `pasteShield.pasteWithValidation`
+- Reads clipboard contents
+- Calls `validateHeaderFooter()`
+- Displays modal error messages with deterministic error codes
+- Executes the real paste only when validation passes
+
+### **2.2 validation.ts**
+- Contains all header/footer validation logic
+- Implements strict rule set:
+  - A1, A2, A3 (header errors)
+  - B1, B2, B3, B4, B5, B6 (footer errors)
+- Normalizes line endings
+- Ensures footer is last line
+- Ensures no duplicates
+- Ensures exact match vs. trimmed match
+
+### **2.3 .vscodeignore**
+- Ensures VSIX packaging includes only compiled output
+- Excludes TypeScript, maps, tests, and development artifacts
+
+### **2.4 tsconfig.json**
+- Compiles TypeScript from `src/` to `out/`
+- Enforces strict mode
+- Uses ES2020 target and CommonJS module format
 
 ---
 
-### 4.2 Structural Invariants  
-- All `.md` files contain correct header and footer  
-- Header/footer lines accept whitespace‑tolerant normalization  
-- Duplicate header/footer lines are rejected  
-- JSON files remain pure JSON  
-- All documentation follows Mandatory Elements  
-- All behavior is deterministic  
-- All components obey MY_RULES.md  
+## 3. Deterministic Error Codes
+
+Each validation failure maps to a stable, documented code:
+
+| Code | Meaning |
+|------|---------|
+| A1 | Missing header |
+| A2 | Incorrect header |
+| A3 | Malformed header |
+| B1 | Missing footer |
+| B2 | Incorrect footer |
+| B3 | Malformed footer |
+| B4 | Duplicate footer |
+| B5 | Footer not last line |
+| B6 | Footer present but header missing |
+
+These codes are modal, user‑visible, and must never change without a major version bump.
 
 ---
 
-## 5. Prohibited Architecture  
-The following are forbidden:
+## 4. Design Principles
 
-- Hidden state  
-- Implicit activation  
-- Telemetry  
+### **4.1 Determinism**
+Every paste attempt must produce the same result given the same clipboard content.
+
+### **4.2 Zero Ambiguity**
+Validation rules must be explicit, not heuristic.
+
+### **4.3 Operator‑Grade Behavior**
+- No silent failures  
+- No hidden transformations  
+- No auto‑correction  
+- No guessing  
+
+### **4.4 Minimal Surface Area**
+The extension intentionally avoids:
 - Network access  
-- Background timers  
-- Mutation outside explicit operator action  
-- Behavior not documented in MY_RULES.md  
-- Any feature that introduces UB  
+- Background tasks  
+- Telemetry  
+- State persistence  
 
 ---
 
-## 6. Future Expansion Boundary  
-Any new feature must:
+## 5. Extension Activation
 
-1. Define rules in MY_RULES.md **before** implementation  
-2. Preserve all existing invariants  
-3. Avoid introducing UB  
-4. Be testable using deterministic procedures  
-5. Maintain zero background behavior  
-6. Maintain operator‑grade clarity  
+The extension activates only when the command is invoked.  
+There is no idle overhead and no background listeners.
 
 ---
 
-###### End of Document \<C:/dev/repos/paste-shield/ARCHITECTURE.md\>
+## 6. Security Model
+
+- No external communication  
+- No file writes  
+- No data storage  
+- Clipboard is read once per paste attempt  
+- All validation is local and synchronous  
+
+---
+
+## 7. Future Enhancements (Optional)
+
+These are allowed but not required:
+
+- Configurable header/footer strings  
+- Workspace‑level policy files  
+- Multi‑line header/footer blocks  
+- Automated tests for validation rules  
+
+All enhancements must preserve determinism and operator‑grade clarity.
+
+---
+
+###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/ARCHITECTURE.md>

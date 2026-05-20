@@ -1,0 +1,10 @@
+###### Start of Document \<C:/dev/repos/paste-shield/.npmignore\>
+
+.vscode/
+.vscode-test/
+src/
+tsconfig.json
+tslint.json
+*.map
+
+###### End of Document \<C:/dev/repos/paste-shield/.npmignore\>

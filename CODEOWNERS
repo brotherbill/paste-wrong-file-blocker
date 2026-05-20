@@ -1,0 +1,12 @@
+# Root ownership
+* @brotherbill
+
+# Source files
+/src/ @brotherbill
+
+# Documentation
+/*.md @brotherbill
+
+# Configuration
+/*.json @brotherbill
+/.vscodeignore @brotherbill
