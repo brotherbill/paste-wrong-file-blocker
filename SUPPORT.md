@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-wrong-file-blocker/SUPPORT.md>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/SUPPORT.md\>
 
 # Support Policy
 
@@ -88,4 +88,4 @@ Only the latest published version receives updates.
 
 ---
 
-###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/SUPPORT.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/SUPPORT.md\>

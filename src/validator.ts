@@ -1,4 +1,4 @@
-// Start of Document \<C:/dev/repos/paste-shield/src/validator.ts\>
+// Start of Document \</C/dev/repos/paste-wrong-file-blocker/src/validator.ts\>
 
 export function validateWrapperCount(text: string): boolean {
   const startCount = (text.match(/Start of Document/g) || []).length;
@@ -6,4 +6,4 @@ export function validateWrapperCount(text: string): boolean {
   return startCount === endCount;
 }
 
-// End of Document \<C:/dev/repos/paste-shield/src/validator.ts\>
+// End of Document \</C/dev/repos/paste-wrong-file-blocker/src/validator.ts\>

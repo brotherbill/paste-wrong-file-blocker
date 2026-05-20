@@ -1,7 +1,7 @@
-###### Start of Document \<C:/dev/repos/paste-shield/ops/MONTHLY_OPERATOR_SUMMARY.md>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/ops/MONTHLY_OPERATOR_SUMMARY.md\>
 # MONTHLY_OPERATOR_SUMMARY.md
 ### Purpose  
-Provides the final month‑end summary for the 30‑day PasteShield operational soak.  
+Provides the final month‑end summary for the 30‑day Paste Wrong File Blocker operational soak.  
 Consolidates all anomalies, doctrine updates, test matrix changes, and determines release readiness.
 
 ---------------------------------------------------------------------
@@ -123,4 +123,4 @@ Consolidates all anomalies, doctrine updates, test matrix changes, and determine
 
 ---------------------------------------------------------------------
 
-###### End of Document \<C:/dev/repos/paste-shield/ops/MONTHLY_OPERATOR_SUMMARY.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/ops/MONTHLY_OPERATOR_SUMMARY.md\>

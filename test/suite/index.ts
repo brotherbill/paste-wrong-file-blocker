@@ -1,4 +1,4 @@
-// Start of Document \<C:/dev/repos/paste-shield/test/suite/index.ts\>
+// Start of Document \</C/dev/repos/paste-wrong-file-blocker/test/suite/index.ts\>
 
 import * as path from "path";
 import * as Mocha from "mocha";
@@ -35,4 +35,4 @@ export function run(): Promise<void> {
   });
 }
 
-// End of Document \<C:/dev/repos/paste-shield/test/suite/index.ts\>
+// End of Document \</C/dev/repos/paste-wrong-file-blocker/test/suite/index.ts\>

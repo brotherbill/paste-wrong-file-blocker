@@ -1,8 +1,8 @@
 "use strict";
 // extension.ts
-// PasteShield (Internal Only)
+// Paste Wrong File Blocker (Internal Only)
 // Deterministic paste interceptor with Safe‑Pass header/footer validation.
-// <C:/dev/repos/paste-shield/src/extension.ts>
+// <C:/dev/repos/paste-wrong-file-blocker/src/extension.ts>
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     var desc = Object.getOwnPropertyDescriptor(m, k);
@@ -114,8 +114,8 @@ async function handlePaste(editor) {
         }
     }
     // Unsafe full replacement → nanny
-    const overridePrompt = "PasteShield Override Required.\n" +
-        "PasteShield: Full-document replacement detected.\n" +
+    const overridePrompt = "Paste Wrong File Blocker Override Required.\n" +
+        "Paste Wrong File Blocker: Full-document replacement detected.\n" +
         "To override, type the exact string: confirmPasteOverride";
     const input = await vscode.window.showInputBox({
         prompt: overridePrompt,
@@ -138,5 +138,5 @@ function activate(context) {
     context.subscriptions.push(disposable);
 }
 function deactivate() { }
-// End of Document <extension.ts>
+// End of Document \</C/dev/repos/paste-wrong-file-blocker/tmp/extension/out/extension.js\>
 //# sourceMappingURL=extension.js.map

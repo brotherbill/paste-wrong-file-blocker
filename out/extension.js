@@ -1,5 +1,5 @@
 "use strict";
-// Start of Document \<C:/dev/repos/paste-shield/src/extension.ts\>
+// Start of Document \</C/dev/repos/paste-wrong-file-blocker/out/extension.js\>
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.activate = activate;
 exports.deactivate = deactivate;
@@ -10,4 +10,4 @@ function activate(context) {
 function deactivate() {
     // No cleanup required
 }
-// End of Document \<C:/dev/repos/paste-shield/src/extension.ts\>
+// End of Document \</C/dev/repos/paste-wrong-file-blocker/out/extension.js\>

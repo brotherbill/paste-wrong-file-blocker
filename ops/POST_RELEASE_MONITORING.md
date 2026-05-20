@@ -1,7 +1,7 @@
-###### Start of Document \<C:/dev/repos/paste-shield/ops/POST_RELEASE_MONITORING.md>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/ops/POST_RELEASE_MONITORING.md\>
 # POST_RELEASE_MONITORING.md
 ### Purpose  
-Defines the mandatory 72‑hour post‑release monitoring procedure for PasteShield.  
+Defines the mandatory 72‑hour post‑release monitoring procedure for Paste Wrong File Blocker.  
 Ensures rapid detection of regressions, editor‑driven anomalies, and field‑reported issues.
 
 ---------------------------------------------------------------------
@@ -79,7 +79,7 @@ No unattended periods longer than 2 hours.
 
 ## 4. Stability Criteria
 
-PasteShield is considered **stable** if:
+Paste Wrong File Blocker is considered **stable** if:
 
 - No A‑series anomalies  
 - No B‑series anomalies  
@@ -121,4 +121,4 @@ At the end of 72 hours:
 
 ---------------------------------------------------------------------
 
-###### End of Document \<C:/dev/repos/paste-shield/ops/POST_RELEASE_MONITORING.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/ops/POST_RELEASE_MONITORING.md\>

@@ -1,11 +1,11 @@
 # ARCHITECTURE  
-Purpose: Defines the structural components and operational invariants of PasteShield.  
-###### <C:/dev/repos/paste-shield/ARCHITECTURE.md>
+Purpose: Defines the structural components and operational invariants of Paste Wrong File Blocker.  
+###### <C:/dev/repos/paste-wrong-file-blocker/ARCHITECTURE.md>
 
 ---
 
 ## 1. System Overview  
-PasteShield is a deterministic VS Code extension that intercepts paste operations and prevents accidental full‑document replacement.  
+Paste Wrong File Blocker is a deterministic VS Code extension that intercepts paste operations and prevents accidental full‑document replacement.  
 The system contains:
 
 - no background processes  
@@ -23,7 +23,7 @@ All behavior is explicitly triggered by operator action.
 ### 2.1 Command Layer  
 **File:** `extension.js`  
 **Responsibilities:**  
-- Register the `paste-shield.paste` command.  
+- Register the `paste-wrong-file-blocker.paste` command.  
 - Intercept paste operations.  
 - Evaluate invariants.  
 - Normalize header/footer lines.  
@@ -95,7 +95,7 @@ All behavior is explicitly triggered by operator action.
 
 ### 3.1 Activation  
 1. VS Code loads the extension.  
-2. `paste-shield.paste` becomes available.  
+2. `paste-wrong-file-blocker.paste` becomes available.  
 3. No background behavior occurs.  
 4. No state is initialized beyond command registration.
 
@@ -103,14 +103,14 @@ All behavior is explicitly triggered by operator action.
 
 ### 3.2 Paste Interception  
 1. Operator triggers paste.  
-2. PasteShield reads:  
+2. Paste Wrong File Blocker reads:  
    - clipboard text  
    - document text  
-3. PasteShield performs:  
+3. Paste Wrong File Blocker performs:  
    - header/footer normalization  
    - duplicate header/footer detection  
    - full‑document replacement detection  
-4. PasteShield selects one of three paths:  
+4. Paste Wrong File Blocker selects one of three paths:  
    - **Normal Paste**  
    - **Blocked Paste**  
    - **Override Paste (atomic)**  
@@ -178,4 +178,4 @@ Any new feature must:
 
 ---
 
-###### End of Document <ARCHITECTURE.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/tmp/extension/ARCHITECTURE.md\>

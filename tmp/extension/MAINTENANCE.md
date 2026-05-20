@@ -1,11 +1,11 @@
 # MAINTENANCE  
-Purpose: Defines long‑term maintenance procedures and stability requirements for PasteShield.  
-###### <C:/dev/repos/paste-shield/MAINTENANCE.md>
+Purpose: Defines long‑term maintenance procedures and stability requirements for Paste Wrong File Blocker.  
+###### <C:/dev/repos/paste-wrong-file-blocker/MAINTENANCE.md>
 
 ---
 
 ## 1. Maintenance Philosophy  
-PasteShield is a safety‑critical extension.  
+Paste Wrong File Blocker is a safety‑critical extension.  
 Maintenance must prioritize:
 
 - stability  
@@ -53,7 +53,7 @@ Before updating any component:
 ---
 
 ## 3. Dependency Management  
-PasteShield must avoid dependencies unless absolutely required.
+Paste Wrong File Blocker must avoid dependencies unless absolutely required.
 
 Rules:
 
@@ -96,7 +96,7 @@ If a maintenance action introduces unexpected behavior:
 ---
 
 ## 6. Long‑Term Stability Requirements  
-PasteShield must remain:
+Paste Wrong File Blocker must remain:
 
 - small  
 - deterministic  
@@ -112,7 +112,7 @@ Any change that increases complexity must be justified in writing and must stren
 ---
 
 ## 7. Decommissioning Procedure  
-If PasteShield is ever retired:
+If Paste Wrong File Blocker is ever retired:
 
 1. Document the reason.  
 2. Archive the repository.  
@@ -123,4 +123,4 @@ If PasteShield is ever retired:
 
 ---
 
-###### End of Document <MAINTENANCE.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/tmp/extension/MAINTENANCE.md\>

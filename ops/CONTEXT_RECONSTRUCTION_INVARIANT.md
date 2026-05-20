@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-shield/ops/CONTEXT_RECONSTRUCTION_INVARIANT.md>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/ops/CONTEXT_RECONSTRUCTION_INVARIANT.md\>
 # CONTEXT_RECONSTRUCTION_INVARIANT.md
 ### Purpose  
 Defines the invariant that no multi‑step operation may be resumed without explicit context reconstruction.  
@@ -92,4 +92,4 @@ All must either:
 
 ---------------------------------------------------------------------
 
-###### End of Document \<C:/dev/repos/paste-shield/ops/CONTEXT_RECONSTRUCTION_INVARIANT.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/ops/CONTEXT_RECONSTRUCTION_INVARIANT.md\>

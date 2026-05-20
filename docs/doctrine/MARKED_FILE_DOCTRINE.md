@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-shield/docs/doctrine/MARKED_FILE_DOCTRINE.md\>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/docs/doctrine/MARKED_FILE_DOCTRINE.md\>
 # MARKED_FILE_DOCTRINE.md
 # Marked File Doctrine
 
@@ -168,4 +168,4 @@ All operations involving Marked Files must comply with this doctrine.
 11.4 Violations place the file or buffer into an invalid state.  
 11.5 Invalid states must not propagate.
 
-###### End of Document \<C:/dev/repos/paste-shield/docs/doctrine/MARKED_FILE_DOCTRINE.md\>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/docs/doctrine/MARKED_FILE_DOCTRINE.md\>

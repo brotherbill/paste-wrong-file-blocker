@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 	<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
 		<Metadata>
-			<Identity Language="en-US" Id="paste-shield-internal" Version="0.0.1" Publisher="internal" />
-			<DisplayName>PasteShield (Internal)</DisplayName>
+			<Identity Language="en-US" Id="paste-wrong-file-blocker-internal" Version="0.0.1" Publisher="internal" />
+			<DisplayName>Paste Wrong File Blocker (Internal)</DisplayName>
 			<Description xml:space="preserve">Deterministic paste interceptor with Safe‑Pass header/footer validation.</Description>
 			<Tags>keybindings</Tags>
 			<Categories>Other</Categories>

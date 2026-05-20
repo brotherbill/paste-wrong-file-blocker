@@ -1,11 +1,11 @@
 # CHANGELOG  
-Purpose: Documents all intentional, reviewed, traceable changes to PasteShield.  
-###### <C:/dev/repos/paste-shield/CHANGELOG.md>
+Purpose: Documents all intentional, reviewed, traceable changes to Paste Wrong File Blocker.  
+###### <C:/dev/repos/paste-wrong-file-blocker/CHANGELOG.md>
 
 ---
 
 ## Versioning Rules  
-PasteShield uses deterministic semantic versioning:
+Paste Wrong File Blocker uses deterministic semantic versioning:
 
 ```
 MAJOR.MINOR.PATCH
@@ -33,7 +33,7 @@ No retroactive edits.
 **Date:** YYYY‑MM‑DD  
 **Type:** MINOR  
 **Summary:**  
-Initial internal‑only release of PasteShield.
+Initial internal‑only release of Paste Wrong File Blocker.
 
 **Changes:**  
 - Added deterministic paste interception  
@@ -121,4 +121,4 @@ No release may occur without updating this file.
 
 ---
 
-###### End of Document <CHANGELOG.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/tmp/extension/changelog.md\>

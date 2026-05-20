@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-shield/ops/SAFE_POINT_DEFINITION.md>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/ops/SAFE_POINT_DEFINITION.md\>
 # SAFE_POINT_DEFINITION.md
 ### Purpose  
 Defines the formal criteria for a **safe point** — the only permissible location from which an operator may resume a multi‑step operation.  
@@ -116,4 +116,4 @@ All unsafe resumption attempts must fail **big and obvious**.
 
 ---------------------------------------------------------------------
 
-###### End of Document \<C:/dev/repos/paste-shield/ops/SAFE_POINT_DEFINITION.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/ops/SAFE_POINT_DEFINITION.md\>

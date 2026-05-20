@@ -1,4 +1,4 @@
-// Start of Document \<C:/dev/repos/paste-wrong-file-blocker/build.ts\>
+// Start of Document \</C/dev/repos/paste-wrong-file-blocker/build.ts\>
 // Deterministic build script for Paste Wrong File Blocker (Internal Only)
 
 import { execSync } from "child_process";
@@ -15,4 +15,4 @@ writeFileSync(
 // Run TypeScript compiler
 execSync("npx tsc -p ./", { stdio: "inherit" });
 
-// End of Document \<C:/dev/repos/paste-wrong-file-blocker/build.ts\>
+// End of Document \</C/dev/repos/paste-wrong-file-blocker/build.ts\>

@@ -3,7 +3,7 @@
 Record session‑level events, decisions, and factual outcomes.  
 No narrative. No interpretation. No future tense.  
 Append‑only.
-###### C:\dev\PasteShield\notes\chat.md
+###### C:\dev\Paste Wrong File Blocker\notes\chat.md
 
 ## Session: Completion of Sections 0 and 1 (MY_RULES.md)
 
@@ -16,7 +16,7 @@ Completed and finalized the first two sections of MY_RULES.md:
 - **Section 1: Audience Doctrine**  
   Defined primary and secondary audiences, audience constraints, prohibited assumptions, violation examples, and postconditions.
 
-Both sections are now stable, deterministic, and aligned with the safety model for PasteShield.
+Both sections are now stable, deterministic, and aligned with the safety model for Paste Wrong File Blocker.
 
 ### Artifacts Updated
 - `MY_RULES.md` — added Sections 0 and 1 in full.
@@ -26,23 +26,23 @@ Repository is consistent.
 Doctrine is aligned.  
 Ready for next sections when appropriate.
 
-## 2026‑05‑17 12:35 EDT — Freeze PasteShield‑Lite (Path B)
+## 2026‑05‑17 12:35 EDT — Freeze Paste Wrong File Blocker‑Lite (Path B)
 
 ### Summary
-Operator elected Path B: freeze the internal‑only PasteShield‑Lite implementation.  
+Operator elected Path B: freeze the internal‑only Paste Wrong File Blocker‑Lite implementation.  
 All doctrine files generated and aligned: README, OPERATIONS, SECURITY, SUPPORT, RELEASE, TEST_PLAN, ARCHITECTURE, CHANGELOG.  
 Repository now contains the full documentation suite required for a stable internal guardrail.
 
 ### Actions Taken
 - Completed all required documentation artifacts.
 - Verified cross‑document doctrinal alignment.
-- Declared PasteShield‑Lite as frozen at v0.1.x.
-- Deferred sovereign‑grade PasteShield‑Full (Path A) until operational need arises.
+- Declared Paste Wrong File Blocker‑Lite as frozen at v0.1.x.
+- Deferred sovereign‑grade Paste Wrong File Blocker‑Full (Path A) until operational need arises.
 - Prepared for quick validation tests.
 - Preparing to pivot back to System76 dead‑box recovery work.
 
 ### State
-PasteShield‑Lite is now:
+Paste Wrong File Blocker‑Lite is now:
 - deterministic  
 - internal‑only  
 - safe  
@@ -58,7 +58,7 @@ PasteShield‑Lite is now:
 ### 2026‑05‑17 — 13:37 EDT — Added missing doctrine files and confirmed repo completeness
 
 - Added `MY_RULES.md` to align with TEST_PLAN references and doctrine requirements.
-- Verified that all required files for the minimal internal PasteShield extension are now present.
+- Verified that all required files for the minimal internal Paste Wrong File Blocker extension are now present.
 - Confirmed no further files are needed for deterministic operation.
 - Prepared to continue with next operator action.
 
@@ -83,9 +83,9 @@ PasteShield‑Lite is now:
 ### 2026‑05‑17 — 21:36 EDT — Repository identity reset (paste‑shield → paste‑wrong‑file‑protector)
 
 - Operator initiated a full identity reset of the extension project.
-- Renaming GitHub repository from `paste-shield` to `paste-wrong-file-protector`.
-- Establishing new extension identity (`paste-wrong-file-shield`) to avoid namespace collision with marketplace PasteShield.
+- Renaming GitHub repository from `paste-wrong-file-blocker` to `paste-wrong-file-protector`.
+- Establishing new extension identity (`paste-wrong-file-shield`) to avoid namespace collision with marketplace Paste Wrong File Blocker.
 - Preparing for rebuild and reinstall under unique publisher/name pair.
-- Marketplace PasteShield will be disabled to ensure deterministic activation.
+- Marketplace Paste Wrong File Blocker will be disabled to ensure deterministic activation.
 
 ###### End of Section <chat.md>

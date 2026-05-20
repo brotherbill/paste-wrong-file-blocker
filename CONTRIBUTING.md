@@ -1,8 +1,8 @@
-###### Start of Document \<C:/dev/repos/paste-shield/CONTRIBUTING.md\>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/CONTRIBUTING.md\>
 
-# Contributing to PasteShield
+# Contributing to Paste Wrong File Blocker
 
-PasteShield is a safety‑critical subsystem.  
+Paste Wrong File Blocker is a safety‑critical subsystem.  
 All contributions must comply with MY_RULES.md.
 
 ## Requirements
@@ -52,4 +52,4 @@ All discussions must be:
 
 No metaphors, humor, or narrative drift.
 
-###### End of Document \<C:/dev/repos/paste-shield/CONTRIBUTING.md\>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/CONTRIBUTING.md\>

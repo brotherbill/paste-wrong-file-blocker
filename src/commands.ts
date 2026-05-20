@@ -1,4 +1,4 @@
-// Start of Document \<C:/dev/repos/paste-shield/src/commands.ts\>
+// Start of Document \</C/dev/repos/paste-wrong-file-blocker/src/commands.ts\>
 
 import * as vscode from "vscode";
 import { executePasteWithValidation } from "./pasteLogic";
@@ -12,4 +12,4 @@ export function registerCommands(context: vscode.ExtensionContext): void {
   context.subscriptions.push(pasteCommand);
 }
 
-// End of Document \<C:/dev/repos/paste-shield/src/commands.ts\>
+// End of Document \</C/dev/repos/paste-wrong-file-blocker/src/commands.ts\>

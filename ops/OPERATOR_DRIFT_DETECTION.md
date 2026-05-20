@@ -1,7 +1,7 @@
-###### Start of Document \<C:/dev/repos/paste-shield/ops/OPERATOR_DRIFT_DETECTION.md>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/ops/OPERATOR_DRIFT_DETECTION.md\>
 # OPERATOR_DRIFT_DETECTION.md
 ### Purpose  
-Defines the mechanisms and procedures for detecting operator drift during all PasteShield operations.  
+Defines the mechanisms and procedures for detecting operator drift during all Paste Wrong File Blocker operations.  
 Ensures the operator remains attentive, aligned with doctrine, and free from complacency.
 
 ---------------------------------------------------------------------
@@ -63,7 +63,7 @@ Drift may be detected through:
 
 ## 3. Drift Detection Mechanisms
 
-PasteShield operations must include:
+Paste Wrong File Blocker operations must include:
 
 - Daily log review for completeness  
 - Weekly anomaly pattern review  
@@ -120,4 +120,4 @@ Operator drift is a safety‑critical condition.
 
 ---------------------------------------------------------------------
 
-###### End of Document \<C:/dev/repos/paste-shield/ops/OPERATOR_DRIFT_DETECTION.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/ops/OPERATOR_DRIFT_DETECTION.md\>

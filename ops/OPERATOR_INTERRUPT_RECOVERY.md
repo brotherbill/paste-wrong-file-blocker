@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-shield/ops/OPERATOR_INTERRUPT_RECOVERY.md>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/ops/OPERATOR_INTERRUPT_RECOVERY.md\>
 # OPERATOR_INTERRUPT_RECOVERY.md
 ### Purpose  
 Defines the mandatory procedure for recovering operator state after any interruption.  
@@ -81,7 +81,7 @@ To prevent drift:
 - Perform a micro‑review of the last 5 minutes of work  
 - Re‑validate assumptions  
 - Re‑validate editor behavior  
-- Re‑validate PasteShield activation  
+- Re‑validate Paste Wrong File Blocker activation  
 - Re‑validate range normalization behavior  
 - Re‑validate clipboard integrity  
 
@@ -147,4 +147,4 @@ No component is exempt.
 
 ---------------------------------------------------------------------
 
-###### End of Document \<C:/dev/repos/paste-shield/ops/OPERATOR_INTERRUPT_RECOVERY.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/ops/OPERATOR_INTERRUPT_RECOVERY.md\>

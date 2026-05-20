@@ -1,9 +1,9 @@
-###### Start of Document \<C:/dev/repos/paste-shield/docs/doctrine/HEADER_FOOTER_DOCTRINE.md\>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/docs/doctrine/HEADER_FOOTER_DOCTRINE.md\>
 # HEADER_FOOTER_DOCTRINE.md
 # Header and Footer Doctrine  
 ### Canonical Structure, Placement, Syntax, and Invariants
 
-This document defines the **only valid structure** for headers and footers in all PasteShield‑governed files.  
+This document defines the **only valid structure** for headers and footers in all Paste Wrong File Blocker‑governed files.  
 These rules are authoritative, deterministic, and immutable.
 
 A file is considered **marked** if it contains a valid header, a valid footer, or both.
@@ -100,7 +100,7 @@ A valid footer contains **exactly one line**, and it must include **absolute pat
 Example for this file:
 
 ```
-###### End of Document \<C:/dev/repos/paste-shield/docs/doctrine/HEADER_FOOTER_DOCTRINE.md\>
+###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/docs/doctrine/HEADER_FOOTER_DOCTRINE.md\>
 ```
 
 ### 2.4 Footer Content Rules  
@@ -243,4 +243,4 @@ Drift → **REJECT**
 7.4 No implicit behavior exists.  
 7.5 All header/footer behavior must be derived from this doctrine alone.
 
-###### End of Document \<C:/dev/repos/paste-shield/docs/doctrine/HEADER_FOOTER_DOCTRINE.md\>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/docs/doctrine/HEADER_FOOTER_DOCTRINE.md\>

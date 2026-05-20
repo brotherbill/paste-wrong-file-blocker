@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-wrong-file-blocker/docs/UBIQUITOUS_LANGUAGE.md\>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/UBIQUITOUS_LANGUAGE.md\>
 # Ubiquitous Language
 
 This document defines the canonical terms used throughout the paste‑shield system.  
@@ -171,4 +171,4 @@ It still has identity (path + filename), but contains no identity claim.
 
 ---------------------------------------------------------------------
 
-###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/docs/UBIQUITOUS_LANGUAGE.md\>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/UBIQUITOUS_LANGUAGE.md\>

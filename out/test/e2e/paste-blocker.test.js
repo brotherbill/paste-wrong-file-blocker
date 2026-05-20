@@ -1,5 +1,5 @@
 "use strict";
-// Start of Document <C:/dev/repos/paste-shield/src/test/e2e/paste-blocker.test.ts>
+// Start of Document \</C/dev/repos/paste-wrong-file-blocker/out/test/e2e/paste-blocker.test.js\>
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     var desc = Object.getOwnPropertyDescriptor(m, k);
@@ -36,7 +36,7 @@ var __importStar = (this && this.__importStar) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 const assert = __importStar(require("assert"));
 const validation_1 = require("../../validation");
-suite("PasteShield E2E — Header/Footer Validation", () => {
+suite("Paste Wrong File Blocker E2E — Header/Footer Validation", () => {
     async function runValidation(input) {
         return (0, validation_1.validateHeaderFooter)(input);
     }
@@ -140,4 +140,4 @@ suite("PasteShield E2E — Header/Footer Validation", () => {
         assert.strictEqual(result.code, "B6");
     });
 });
-// End of Document <C:/dev/repos/paste-shield/src/test/e2e/paste-blocker.test.ts>
+// End of Document \</C/dev/repos/paste-wrong-file-blocker/out/test/e2e/paste-blocker.test.js\>

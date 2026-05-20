@@ -1,4 +1,4 @@
-// Start of Document <C:/dev/repos/paste-shield/test/runTest.ts>
+// Start of Document \</C/dev/repos/paste-wrong-file-blocker/test/runTest.ts\>
 
 import * as path from "path";
 import { runTests } from "@vscode/test-electron";
@@ -20,4 +20,4 @@ async function main() {
 
 main();
 
-// End of Document <C:/dev/repos/paste-shield/test/runTest.ts>
+// End of Document \</C/dev/repos/paste-wrong-file-blocker/test/runTest.ts\>

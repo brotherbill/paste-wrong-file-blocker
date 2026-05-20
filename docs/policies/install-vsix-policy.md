@@ -1,4 +1,4 @@
-###### Start of Document <C:/dev/repos/paste-wrong-file-blocker/docs/policies/install-vsix-policy.md>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/docs/policies/install-vsix-policy.md\>
 # install-vsix-policy.md
 ### Policy: Install `.vsix` Extensions Only Using External PowerShell
 
@@ -84,4 +84,4 @@ Compliance is mandatory for all PWFB development and release workflows.
 
 ---------------------------------------------------------------------
 
-###### End of Document <C:/dev/repos/paste-wrong-file-blocker/docs/policies/install-vsix-policy.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/docs/policies/install-vsix-policy.md\>

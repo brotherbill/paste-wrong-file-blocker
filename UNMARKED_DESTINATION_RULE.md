@@ -1,6 +1,6 @@
 # Unmarked Destination Rule
 ### Purpose: Defines the doctrine governing paste behavior when the destination file has no identity envelope.
-###### <C:/dev/repos/paste-shield/docs/UNMARKED_DESTINATION_RULE.md>
+###### <C:/dev/repos/paste-wrong-file-blocker/docs/UNMARKED_DESTINATION_RULE.md>
 
 ---------------------------------------------------------------------
 
@@ -93,4 +93,4 @@ This is Step 0 and Step 1 of the canonical algorithm.
 
 ---------------------------------------------------------------------
 
-###### End of Document <UNMARKED_DESTINATION_RULE.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/UNMARKED_DESTINATION_RULE.md\>

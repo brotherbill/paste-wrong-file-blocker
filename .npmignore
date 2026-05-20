@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-shield/.npmignore\>
+###### Start of Document \<C:/dev/repos/paste-wrong-file-blocker/.npmignore\>
 
 .vscode/
 .vscode-test/
@@ -7,4 +7,4 @@ tsconfig.json
 tslint.json
 *.map
 
-###### End of Document \<C:/dev/repos/paste-shield/.npmignore\>
+###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/.npmignore\>

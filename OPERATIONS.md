@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-wrong-file-blocker/OPERATIONS.md\>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/OPERATIONS.md\>
 # OPERATIONS  
 Purpose: Defines operator procedures for using, controlling, and recovering Paste Wrong File Blocker.
 
@@ -149,4 +149,4 @@ Paste Wrong File Blocker is operating correctly when:
 
 ---
 
-###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/OPERATIONS.md\>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/OPERATIONS.md\>

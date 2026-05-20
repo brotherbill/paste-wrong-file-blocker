@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-wrong-file-blocker/GOVERNANCE.md>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/GOVERNANCE.md\>
 
 # Project Governance
 
@@ -109,4 +109,4 @@ Changes must be documented in `CHANGELOG.md`.
 
 ---
 
-###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/GOVERNANCE.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/GOVERNANCE.md\>

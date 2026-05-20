@@ -1,11 +1,11 @@
 # GOVERNANCE  
-Purpose: Defines authority, decision‑making, and escalation rules for the PasteShield repository.  
-###### <C:/dev/repos/paste-shield/GOVERNANCE.md>
+Purpose: Defines authority, decision‑making, and escalation rules for the Paste Wrong File Blocker repository.  
+###### <C:/dev/repos/paste-wrong-file-blocker/GOVERNANCE.md>
 
 ---
 
 ## 1. Authority Model  
-PasteShield governance follows a single‑source‑of‑truth model:
+Paste Wrong File Blocker governance follows a single‑source‑of‑truth model:
 
 1. **MY_RULES.md is supreme.**  
 2. All other artifacts derive authority from MY_RULES.md.  
@@ -142,4 +142,4 @@ If maintainership changes:
 
 ---
 
-###### End of Document <GOVERNANCE.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/tmp/extension/GOVERNANCE.md\>

@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-wrong-file-blocker/INSTALLATION.md\>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/INSTALLATION.md\>
 # INSTALLATION  
 Purpose: Defines deterministic installation and environment‑validation procedures for Paste Wrong File Blocker.
 
@@ -129,4 +129,4 @@ Any installation that violates an invariant is invalid.
 
 ---
 
-###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/INSTALLATION.md\>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/INSTALLATION.md\>

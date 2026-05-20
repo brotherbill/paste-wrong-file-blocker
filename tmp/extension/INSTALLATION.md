@@ -1,11 +1,11 @@
 # INSTALLATION  
-Purpose: Defines deterministic installation and environment‑validation procedures for PasteShield.  
-###### <C:/dev/repos/paste-shield/INSTALLATION.md>
+Purpose: Defines deterministic installation and environment‑validation procedures for Paste Wrong File Blocker.  
+###### <C:/dev/repos/paste-wrong-file-blocker/INSTALLATION.md>
 
 ---
 
 ## 1. Preconditions  
-Before installing PasteShield:
+Before installing Paste Wrong File Blocker:
 
 - VS Code must be installed.  
 - Operator must have permission to install extensions.  
@@ -25,7 +25,7 @@ Before installing PasteShield:
    ```
    Extensions: Install from VSIX...
    ```  
-5. Select the PasteShield `.vsix` file.  
+5. Select the Paste Wrong File Blocker `.vsix` file.  
 6. Wait for installation to complete.  
 7. Restart VS Code.
 
@@ -45,7 +45,7 @@ If any step fails, installation is invalid.
 ---
 
 ## 3. Environment Validation  
-PasteShield requires a clean environment.
+Paste Wrong File Blocker requires a clean environment.
 
 ### 3.1 Conflicting Extensions  
 Disable any extension that:
@@ -62,11 +62,11 @@ The following settings must remain default:
 - `editor.formatOnType`  
 - `editor.autoIndent`  
 
-PasteShield does not modify these settings.
+Paste Wrong File Blocker does not modify these settings.
 
 ---
 
-## 4. Updating PasteShield  
+## 4. Updating Paste Wrong File Blocker  
 
 ### 4.1 Update Procedure  
 1. Disable the existing version.  
@@ -97,7 +97,7 @@ Reinstall only when:
 
 Steps:
 
-1. Uninstall PasteShield.  
+1. Uninstall Paste Wrong File Blocker.  
 2. Restart VS Code.  
 3. Install the `.vsix` again.  
 4. Perform verification steps.
@@ -108,7 +108,7 @@ Steps:
 To uninstall:
 
 1. Open Extensions panel.  
-2. Locate “PasteShield (Internal)”.  
+2. Locate “Paste Wrong File Blocker (Internal)”.  
 3. Select **Uninstall**.  
 4. Restart VS Code.  
 5. Confirm paste behavior returns to default.
@@ -129,4 +129,4 @@ Any installation that violates an invariant is invalid.
 
 ---
 
-###### End of Document <INSTALLATION.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/tmp/extension/INSTALLATION.md\>

@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-shield/ops/SAFE_POINT_IDEMPOTENCE.md>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/ops/SAFE_POINT_IDEMPOTENCE.md\>
 # SAFE_POINT_IDEMPOTENCE.md
 ### Purpose  
 Defines the idempotence requirement for safe points.  
@@ -119,4 +119,4 @@ All non‑idempotent re‑entries must fail **big and obvious**.
 
 ---------------------------------------------------------------------
 
-###### End of Document \<C:/dev/repos/paste-shield/ops/SAFE_POINT_IDEMPOTENCE.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/ops/SAFE_POINT_IDEMPOTENCE.md\>

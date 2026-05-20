@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-shield/ops/STATE_REENTRY_PROTOCOL.md>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/ops/STATE_REENTRY_PROTOCOL.md\>
 # STATE_REENTRY_PROTOCOL.md
 ### Purpose  
 Defines the mandatory protocol for re‑entering any operational state after a pause, interruption, or context loss.  
@@ -98,4 +98,4 @@ All must either:
 
 ---------------------------------------------------------------------
 
-###### End of Document \<C:/dev/repos/paste-shield/ops/STATE_REENTRY_PROTOCOL.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/ops/STATE_REENTRY_PROTOCOL.md\>

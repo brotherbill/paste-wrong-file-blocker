@@ -1,4 +1,4 @@
-// Start of Document \<C:/dev/repos/paste-shield/src/validation.ts\>
+// Start of Document \</C/dev/repos/paste-wrong-file-blocker/src/validation.ts\>
 
 export interface ValidationResult {
   valid: boolean;
@@ -42,4 +42,4 @@ export function validateHeaderFooter(text: string): ValidationResult {
   };
 }
 
-// End of Document \<C:/dev/repos/paste-shield/src/validation.ts\>
+// End of Document \</C/dev/repos/paste-wrong-file-blocker/src/validation.ts\>

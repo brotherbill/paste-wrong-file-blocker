@@ -1,7 +1,7 @@
-###### Start of Document \<C:/dev/repos/paste-shield/ops/OPERATOR_RHYTHM_AND_FRICTION.md>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/ops/OPERATOR_RHYTHM_AND_FRICTION.md\>
 # OPERATOR_RHYTHM_AND_FRICTION.md
 ### Purpose  
-Defines the required rhythm and friction patterns that maintain operator engagement, prevent habituation, and preserve vigilance during all PasteShield operations.
+Defines the required rhythm and friction patterns that maintain operator engagement, prevent habituation, and preserve vigilance during all Paste Wrong File Blocker operations.
 
 ---------------------------------------------------------------------
 
@@ -126,4 +126,4 @@ No component is exempt.
 
 ---------------------------------------------------------------------
 
-###### End of Document \<C:/dev/repos/paste-shield/ops/OPERATOR_RHYTHM_AND_FRICTION.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/ops/OPERATOR_RHYTHM_AND_FRICTION.md\>

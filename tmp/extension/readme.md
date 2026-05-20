@@ -1,14 +1,14 @@
-# PasteShield (Internal Only)  
+# Paste Wrong File Blocker (Internal Only)  
 Purpose: Prevent catastrophic full‑document replacement during paste operations inside VS Code.  
-###### <C:/dev/repos/paste-shield/README.md>
+###### <C:/dev/repos/paste-wrong-file-blocker/README.md>
 
 ---
 
 ## 1. Overview  
-PasteShield is an internal‑only VS Code extension that intercepts paste operations and prevents accidental full‑document replacement.  
+Paste Wrong File Blocker is an internal‑only VS Code extension that intercepts paste operations and prevents accidental full‑document replacement.  
 It functions as a deterministic safety diode for operator workflows on Windows and on the System76 machine when accessed through VS Code.
 
-PasteShield contains:
+Paste Wrong File Blocker contains:
 
 - no telemetry  
 - no dependencies  
@@ -23,18 +23,18 @@ This version implements the **core safety model**, including:
 - header/footer normalization  
 - duplicate header/footer rejection  
 
-It does **not** implement the full sovereign‑grade PasteShield protocol (hashing, invariants, identity matrix, multi‑cursor safety).
+It does **not** implement the full sovereign‑grade Paste Wrong File Blocker protocol (hashing, invariants, identity matrix, multi‑cursor safety).
 
 ---
 
 ## 2. Scope  
 
-PasteShield applies only to:
+Paste Wrong File Blocker applies only to:
 
 - VS Code on Windows  
 - VS Code on Ubuntu (via RustDesk)
 
-PasteShield does **not** apply to:
+Paste Wrong File Blocker does **not** apply to:
 
 - Benny’s machine  
 - Rider  
@@ -64,7 +64,7 @@ PasteShield does **not** apply to:
 ## 4. Directory Structure  
 
 ```
-paste-shield/
+paste-wrong-file-blocker/
 ├── package.json
 └── extension.js
 ```
@@ -79,7 +79,7 @@ No generated artifacts.
 ## 5. Installation (Internal Only)
 
 ### Option A — Run in Extension Host  
-1. Open the `paste-shield` folder in VS Code.  
+1. Open the `paste-wrong-file-blocker` folder in VS Code.  
 2. Press **F5** to launch the Extension Host environment.
 
 ### Option B — Install as a packaged extension  
@@ -92,18 +92,18 @@ No generated artifacts.
 2. Install the generated `.vsix`:
 
    ```
-   code --install-extension paste-shield-0.1.0.vsix
+   code --install-extension paste-wrong-file-blocker-0.1.0.vsix
    ```
 
 3. Restart VS Code.
 
-PasteShield activates automatically.
+Paste Wrong File Blocker activates automatically.
 
 ---
 
 ## 6. Usage  
 
-PasteShield replaces the default paste command.  
+Paste Wrong File Blocker replaces the default paste command.  
 Pressing **Ctrl+V** inside an editor triggers the shield.
 
 ### Behavior  
@@ -137,7 +137,7 @@ Header/footer behavior:
 ## 8. Notes  
 
 This is a temporary internal tool.  
-A future version will implement the full PasteShield protocol, including:
+A future version will implement the full Paste Wrong File Blocker protocol, including:
 
 - header/body/tail segmentation  
 - invariant enforcement  
@@ -150,4 +150,4 @@ This version exists only to protect the operator during early development.
 
 ---
 
-###### End of Document <README.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/tmp/extension/readme.md\>

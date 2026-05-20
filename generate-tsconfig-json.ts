@@ -1,4 +1,4 @@
-// Start of Document \<C:/dev/repos/paste-wrong-file-blocker/generate-tsconfig-json.ts\>
+// Start of Document \</C/dev/repos/paste-wrong-file-blocker/generate-tsconfig-json.ts\>
 // Deterministic emitter for tsconfig.json using typed source-of-truth.
 
 import { writeFileSync } from "fs";
@@ -10,4 +10,4 @@ writeFileSync(
     { encoding: "utf8" }
 );
 
-// End of Document \<C:/dev/repos/paste-wrong-file-blocker/generate-tsconfig-json.ts\>
+// End of Document \</C/dev/repos/paste-wrong-file-blocker/generate-tsconfig-json.ts\>

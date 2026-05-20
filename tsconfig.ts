@@ -17,4 +17,4 @@ export const tsconfig = {
     include: ["src"]
 };
 
-// End of Document \<C:/dev/repos/paste-wrong-file-blocker/tsconfig.ts\>
+// End of Document \</C/dev/repos/paste-wrong-file-blocker/tsconfig.ts\>

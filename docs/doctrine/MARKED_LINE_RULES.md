@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-shield/docs/doctrine/MARKED_LINE_RULES.md\>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/docs/doctrine/MARKED_LINE_RULES.md\>
 # MARKED_LINE_RULES.md
 # Marked Line Rules  
 ### Canonical Definition, Syntax, Behavior, and Invariants
@@ -125,4 +125,4 @@ They do not affect identity, structure, or classification.
 9.4 No implicit behavior exists.  
 9.5 All Marked Line behavior must be derived from this doctrine alone.
 
-###### End of Document \<C:/dev/repos/paste-shield/docs/doctrine/MARKED_LINE_RULES.md\>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/docs/doctrine/MARKED_LINE_RULES.md\>

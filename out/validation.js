@@ -1,5 +1,5 @@
 "use strict";
-// Start of Document \<C:/dev/repos/paste-shield/src/validation.ts\>
+// Start of Document \</C/dev/repos/paste-wrong-file-blocker/out/validation.js\>
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.validateHeaderFooter = validateHeaderFooter;
 const START_MARKER = '###### Start of Document';
@@ -31,4 +31,4 @@ function validateHeaderFooter(text) {
         message: 'Header and footer validated.'
     };
 }
-// End of Document \<C:/dev/repos/paste-shield/src/validation.ts\>
+// End of Document \</C/dev/repos/paste-wrong-file-blocker/out/validation.js\>

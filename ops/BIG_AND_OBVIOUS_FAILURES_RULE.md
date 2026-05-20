@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-shield/ops/BIG_AND_OBVIOUS_FAILURES_RULE.md>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/ops/BIG_AND_OBVIOUS_FAILURES_RULE.md\>
 # BIG_AND_OBVIOUS_FAILURES_RULE.md
 ### Purpose  
 Defines the requirement that all system failures must be large, visible, and unmistakable.  
@@ -59,7 +59,7 @@ When a failure occurs:
 
 ## 4. System Behavior Requirements
 
-PasteShield and all supporting tools must:
+Paste Wrong File Blocker and all supporting tools must:
 
 - Surface failures with maximum clarity  
 - Block unsafe operations  
@@ -106,4 +106,4 @@ No component is exempt.
 
 ---------------------------------------------------------------------
 
-###### End of Document \<C:/dev/repos/paste-shield/ops/BIG_AND_OBVIOUS_FAILURES_RULE.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/ops/BIG_AND_OBVIOUS_FAILURES_RULE.md\>

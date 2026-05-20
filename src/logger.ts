@@ -1,7 +1,7 @@
-// Start of Document \<C:/dev/repos/paste-shield/src/logger.ts\>
+// Start of Document \</C/dev/repos/paste-wrong-file-blocker/src/logger.ts\>
 
 export function log(message: string): void {
-  console.log(`[PasteShield] ${message}`);
+  console.log(`[Paste Wrong File Blocker] ${message}`);
 }
 
-// End of Document \<C:/dev/repos/paste-shield/src/logger.ts\>
+// End of Document \</C/dev/repos/paste-wrong-file-blocker/src/logger.ts\>

@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-shield/docs/doctrine/A_SERIES.md\>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/docs/doctrine/A_SERIES.md\>
 # A_SERIES.md
 # A‑Series Doctrine  
 ### Paste Operations Into an Unmarked Destination File
@@ -147,4 +147,4 @@ No A‑Series case produces REJECT unless the paste buffer violates global struc
 9.4 No implicit behavior is permitted.  
 9.5 The A‑Series is closed under all valid inputs.
 
-###### End of Document \<C:/dev/repos/paste-shield/docs/doctrine/A_SERIES.md\>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/docs/doctrine/A_SERIES.md\>

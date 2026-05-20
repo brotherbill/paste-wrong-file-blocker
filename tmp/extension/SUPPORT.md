@@ -1,11 +1,11 @@
 # SUPPORT  
-Purpose: Defines defect reporting, triage procedures, and emergency support protocols for PasteShield.  
-###### <C:/dev/repos/paste-shield/SUPPORT.md>
+Purpose: Defines defect reporting, triage procedures, and emergency support protocols for Paste Wrong File Blocker.  
+###### <C:/dev/repos/paste-wrong-file-blocker/SUPPORT.md>
 
 ---
 
 ## 1. Support Philosophy  
-PasteShield is a safety‑critical extension.  
+Paste Wrong File Blocker is a safety‑critical extension.  
 Support must prioritize:
 
 - operator safety  
@@ -63,7 +63,7 @@ A defect report must include:
 4. Clipboard contents (if safe to share)  
 5. Document contents (if safe to share)  
 6. VS Code version  
-7. PasteShield version  
+7. Paste Wrong File Blocker version  
 8. Operating system  
 9. Whether other extensions were active  
 10. Whether header/footer validation was involved  
@@ -120,7 +120,7 @@ Addressed during normal maintenance.
 ## 6. Emergency Protocol  
 If a critical defect occurs:
 
-1. Stop using PasteShield immediately.  
+1. Stop using Paste Wrong File Blocker immediately.  
 2. Document the failure.  
 3. Disable the extension.  
 4. Notify maintainers.  
@@ -158,4 +158,4 @@ A defect is resolved only when:
 
 ---
 
-###### End of Document <SUPPORT.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/tmp/extension/SUPPORT.md\>

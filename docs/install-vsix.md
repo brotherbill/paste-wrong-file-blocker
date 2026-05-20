@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-wrong-file-blocker/docs/install-vsix.md\>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/docs/install-vsix.md\>
 # install-vsix.md
 ### Purpose: Defines the mandatory procedure for installing `.vsix` extensions using external PowerShell only
 
@@ -127,4 +127,4 @@ Operators must know:
 
 ---------------------------------------------------------------------
 
-###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/docs/install-vsix.md\>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/docs/install-vsix.md\>

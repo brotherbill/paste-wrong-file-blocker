@@ -1,4 +1,4 @@
-###### Start of Document <C:/dev/repos/paste-shield/doctrine/C_SERIES.md>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/docs/doctrine/C_SERIES.md\>
 # C_SERIES.md
 ### Purpose  
 Defines the C‑series doctrine governing paste‑range normalization anomalies.
@@ -77,4 +77,4 @@ When a C1 condition occurs:
 
 ---------------------------------------------------------------------
 
-###### End of Document <C:/dev/repos/paste-shield/doctrine/C_SERIES.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/docs/doctrine/C_SERIES.md\>

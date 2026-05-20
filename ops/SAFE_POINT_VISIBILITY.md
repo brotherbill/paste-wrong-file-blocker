@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-shield/ops/SAFE_POINT_VISIBILITY.md>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/ops/SAFE_POINT_VISIBILITY.md\>
 # SAFE_POINT_VISIBILITY.md
 ### Purpose  
 Defines the visibility requirements for safe points.  
@@ -113,4 +113,4 @@ All must fail **big and obvious**.
 
 ---------------------------------------------------------------------
 
-###### End of Document \<C:/dev/repos/paste-shield/ops/SAFE_POINT_VISIBILITY.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/ops/SAFE_POINT_VISIBILITY.md\>

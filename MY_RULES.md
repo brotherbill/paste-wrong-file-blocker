@@ -1,13 +1,13 @@
-###### Start of Document \<C:/dev/repos/paste-wrong-file-blocker/MY_RULES.md\>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/MY_RULES.md\>
 # MY_RULES.md
-### Purpose: Defines the operator‑grade rules governing all artifacts in the PasteShield repository
+### Purpose: Defines the operator‑grade rules governing all artifacts in the Paste Wrong File Blocker repository
 
 ---------------------------------------------------------------------
 
 ## 0. Scope and Authority
 
 ### 0.0 Mission Context
-PasteShield is a safety‑critical subsystem.
+Paste Wrong File Blocker is a safety‑critical subsystem.
 Its correctness depends on strict doctrine, deterministic behavior, and zero ambiguity.
 All artifacts must comply with this document.
 
@@ -106,7 +106,7 @@ A contributor must be able to state:
 ## 1. Audience Doctrine
 
 ### 1.0 Mission Context
-PasteShield prevents accidental full‑document replacement.
+Paste Wrong File Blocker prevents accidental full‑document replacement.
 The failure mode is universal.
 
 Violation classification:
@@ -141,7 +141,7 @@ No artifact may assume the user understands:
 - extension activation
 - buffer identity
 - file mutation semantics
-- PasteShield architecture
+- Paste Wrong File Blocker architecture
 - documentation before usage
 - code before usage
 
@@ -331,7 +331,7 @@ No copy‑paste, autocomplete, autofill, or shortcuts.
 
 Overrides are logged.
 
-Multiple overrides → disable PasteShield temporarily.
+Multiple overrides → disable Paste Wrong File Blocker temporarily.
 
 ---------------------------------------------------------------------
 
@@ -360,4 +360,4 @@ A valid document contains exactly one Start wrapper and exactly one End wrapper.
 
 ---------------------------------------------------------------------
 
-###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/MY_RULES.md\>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/MY_RULES.md\>

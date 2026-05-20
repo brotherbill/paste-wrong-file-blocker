@@ -1,10 +1,10 @@
-// Start of Document <C:/dev/repos/paste-shield/src/test/e2e/paste-blocker.test.ts>
+// Start of Document \</C/dev/repos/paste-wrong-file-blocker/src/test/e2e/paste-blocker.test.ts\>
 
 import * as assert from "assert";
 import * as vscode from "vscode";
 import { validateHeaderFooter } from "../../validation";
 
-suite("PasteShield E2E — Header/Footer Validation", () => {
+suite("Paste Wrong File Blocker E2E — Header/Footer Validation", () => {
 
     async function runValidation(input: string) {
         return validateHeaderFooter(input);
@@ -132,4 +132,4 @@ suite("PasteShield E2E — Header/Footer Validation", () => {
     });
 });
 
-// End of Document <C:/dev/repos/paste-shield/src/test/e2e/paste-blocker.test.ts>
+// End of Document \</C/dev/repos/paste-wrong-file-blocker/src/test/e2e/paste-blocker.test.ts\>

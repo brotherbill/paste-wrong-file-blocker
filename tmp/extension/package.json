@@ -1,6 +1,6 @@
 {
-  "name": "paste-shield-internal",
-  "displayName": "PasteShield (Internal)",
+  "name": "paste-wrong-file-blocker-internal",
+  "displayName": "Paste Wrong File Blocker (Internal)",
   "description": "Deterministic paste interceptor with Safe‑Pass header/footer validation.",
   "version": "0.0.1",
   "publisher": "internal",
@@ -18,7 +18,7 @@
     "commands": [
       {
         "command": "pasteShieldInternal.paste",
-        "title": "PasteShield Internal: Paste"
+        "title": "Paste Wrong File Blocker Internal: Paste"
       }
     ],
     "keybindings": [

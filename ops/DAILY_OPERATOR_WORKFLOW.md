@@ -1,14 +1,14 @@
-###### Start of Document \<C:/dev/repos/paste-shield/ops/DAILY_OPERATOR_WORKFLOW.md>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/ops/DAILY_OPERATOR_WORKFLOW.md\>
 # DAILY_OPERATOR_WORKFLOW.md
 ### Purpose  
-Defines the mandatory daily operator workflow for the 30‑day PasteShield soak.  
+Defines the mandatory daily operator workflow for the 30‑day Paste Wrong File Blocker soak.  
 Ensures consistent, reproducible, deterministic data collection.
 
 ---------------------------------------------------------------------
 
 ## 0. Preconditions
 
-- PasteShield installed and enabled  
+- Paste Wrong File Blocker installed and enabled  
 - Workspace Trust: Trusted  
 - Autosave state recorded  
 - Editor version recorded  
@@ -22,7 +22,7 @@ Ensures consistent, reproducible, deterministic data collection.
 
 1. Launch VS Code  
 2. Open the primary working folder  
-3. Verify PasteShield activation  
+3. Verify Paste Wrong File Blocker activation  
 4. Open the 30‑day soak log  
 5. Create today’s entry using the daily template  
 6. Record operator context (fatigue, workload, mode)  
@@ -36,8 +36,8 @@ No edits occur before the log entry is created.
 
 For every paste event:
 
-- If PasteShield blocks → record as “guarded”  
-- If PasteShield allows → record as “unguarded”  
+- If Paste Wrong File Blocker blocks → record as “guarded”  
+- If Paste Wrong File Blocker allows → record as “unguarded”  
 - If behavior is unexpected → classify as anomaly  
 - If anomaly does not fit A/B/C → mark as NEW  
 
@@ -91,4 +91,4 @@ Operator records literal behavior only.
 
 ---------------------------------------------------------------------
 
-###### End of Document \<C:/dev/repos/paste-shield/ops/DAILY_OPERATOR_WORKFLOW.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/ops/DAILY_OPERATOR_WORKFLOW.md\>

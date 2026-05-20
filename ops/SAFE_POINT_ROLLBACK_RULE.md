@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-shield/ops/SAFE_POINT_ROLLBACK_RULE.md>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/ops/SAFE_POINT_ROLLBACK_RULE.md\>
 # SAFE_POINT_ROLLBACK_RULE.md
 ### Purpose  
 Defines the mandatory rule for rolling back to the last confirmed safe point whenever state, context, or invariants cannot be fully reconstructed.  
@@ -100,4 +100,4 @@ All must trigger rollback **immediately and visibly**.
 
 ---------------------------------------------------------------------
 
-###### End of Document \<C:/dev/repos/paste-shield/ops/SAFE_POINT_ROLLBACK_RULE.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/ops/SAFE_POINT_ROLLBACK_RULE.md\>

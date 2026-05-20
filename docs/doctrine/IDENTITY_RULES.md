@@ -1,9 +1,9 @@
-###### Start of Document \<C:/dev/repos/paste-shield/docs/doctrine/IDENTITY_RULES.md\>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/docs/doctrine/IDENTITY_RULES.md\>
 # IDENTITY_RULES.md
 # Identity Rules  
 ### Canonical Definition of Identity, Matching, Validation, and Preamble Handling
 
-Identity Rules define how PasteShield determines the identity of a file, validates wrapper claims, and enforces deterministic behavior across all paste operations.  
+Identity Rules define how Paste Wrong File Blocker determines the identity of a file, validates wrapper claims, and enforces deterministic behavior across all paste operations.  
 Identity is the foundation of the Marked File system and must remain stable, immutable, and drift‑free.
 
 These rules apply globally across all doctrines.
@@ -191,4 +191,4 @@ No drift allowed.
 9.4 No implicit behavior exists.  
 9.5 All identity behavior must be derived from this doctrine alone.
 
-###### End of Document \<C:/dev/repos/paste-shield/docs/doctrine/IDENTITY_RULES.md\>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/docs/doctrine/IDENTITY_RULES.md\>

@@ -1,9 +1,9 @@
-###### Start of Document \<C:/dev/repos/paste-shield/CODE_OF_CONDUCT.md\>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/CODE_OF_CONDUCT.md\>
 
 # Code of Conduct
 
 ## 1. Purpose
-PasteShield is a safety‑critical subsystem.  
+Paste Wrong File Blocker is a safety‑critical subsystem.  
 All contributors must maintain a professional, respectful, and deterministic environment.
 
 ## 2. Expected Behavior
@@ -42,4 +42,4 @@ Include:
 ## 6. Determinism Clause
 Any behavior that introduces ambiguity, drift, or loss of determinism is considered a violation.
 
-###### End of Document \<C:/dev/repos/paste-shield/CODE_OF_CONDUCT.md\>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/CODE_OF_CONDUCT.md\>

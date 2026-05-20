@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-shield/docs/doctrine/B_SERIES.md\>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/docs/doctrine/B_SERIES.md\>
 # B_SERIES.md
 # B‑Series Doctrine  
 ### Paste Operations Into a Marked Destination File
@@ -205,4 +205,4 @@ No other outcomes exist.
 12.4 No implicit behavior is permitted.  
 12.5 The B‑Series is closed under all valid inputs.
 
-###### End of Document \<C:/dev/repos/paste-shield/docs/doctrine/B_SERIES.md\>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/docs/doctrine/B_SERIES.md\>

@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-wrong-file-blocker/RELEASE.md\>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/RELEASE.md\>
 # RELEASE  
 Purpose: Defines the procedures, requirements, and invariants for releasing new versions of Paste Wrong File Blocker.
 
@@ -148,4 +148,4 @@ No exceptions.
 
 ---
 
-###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/RELEASE.md\>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/RELEASE.md\>

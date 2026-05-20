@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-wrong-file-blocker/CHANGELOG.md\>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/CHANGELOG.md\>
 
 ###### CHANGELOG.md
 
@@ -25,4 +25,4 @@ Entries must be deterministic, literal, and aligned with MY_RULES.md.
 ### 0.0.1
 - Repository initialization
 
-###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/CHANGELOG.md\>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/CHANGELOG.md\>

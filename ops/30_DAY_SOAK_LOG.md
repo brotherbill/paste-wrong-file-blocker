@@ -1,7 +1,7 @@
-###### Start of Document \<C:/dev/repos/paste-shield/ops/30_DAY_SOAK_LOG.md>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/ops/30_DAY_SOAK_LOG.md\>
 # 30_DAY_SOAK_LOG.md
 ### Purpose  
-Provides a structured, deterministic 30‑day operational soak log for PasteShield.  
+Provides a structured, deterministic 30‑day operational soak log for Paste Wrong File Blocker.  
 Captures all anomalies, classifications, doctrine updates, and operator observations.
 
 ---------------------------------------------------------------------
@@ -53,7 +53,7 @@ Captures all anomalies, classifications, doctrine updates, and operator observat
 ### Week \<1‑4> Summary
 
 **Stability Assessment**  
-- PasteShield behavior: \<stable | unstable | noisy | inconsistent>  
+- Paste Wrong File Blocker behavior: \<stable | unstable | noisy | inconsistent>  
 - False positives: \<count>  
 - False negatives: \<count>  
 - Editor‑driven anomalies: \<count>  
@@ -114,4 +114,4 @@ Requires immediate doctrine creation before continuing soak.
 
 ---------------------------------------------------------------------
 
-###### End of Document \<C:/dev/repos/paste-shield/ops/30_DAY_SOAK_LOG.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/ops/30_DAY_SOAK_LOG.md\>

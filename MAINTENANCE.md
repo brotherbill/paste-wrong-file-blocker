@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-wrong-file-blocker/MAINTENANCE.md\>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/MAINTENANCE.md\>
 # MAINTENANCE  
 Purpose: Defines long‑term maintenance procedures and stability requirements for Paste Wrong File Blocker.
 
@@ -123,4 +123,4 @@ If Paste Wrong File Blocker is ever retired:
 
 ---
 
-###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/MAINTENANCE.md\>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/MAINTENANCE.md\>

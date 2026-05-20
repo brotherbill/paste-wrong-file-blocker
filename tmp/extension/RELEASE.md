@@ -1,11 +1,11 @@
 # RELEASE  
-Purpose: Defines the procedures, requirements, and invariants for releasing new versions of PasteShield.  
-###### <C:/dev/repos/paste-shield/RELEASE.md>
+Purpose: Defines the procedures, requirements, and invariants for releasing new versions of Paste Wrong File Blocker.  
+###### <C:/dev/repos/paste-wrong-file-blocker/RELEASE.md>
 
 ---
 
 ## 1. Release Philosophy  
-PasteShield releases must prioritize:
+Paste Wrong File Blocker releases must prioritize:
 
 - stability  
 - determinism  
@@ -38,7 +38,7 @@ If any precondition fails, the release is blocked.
 ---
 
 ## 3. Versioning Rules  
-PasteShield uses deterministic semantic versioning:
+Paste Wrong File Blocker uses deterministic semantic versioning:
 
 ```
 MAJOR.MINOR.PATCH
@@ -87,7 +87,7 @@ Rules:
 9. Confirm no regressions.
 
 ### 4.4 Publication  
-PasteShield is internal‑only.  
+Paste Wrong File Blocker is internal‑only.  
 Publication consists of:
 
 - storing the `.vsix` in the internal repository  
@@ -148,4 +148,4 @@ No exceptions.
 
 ---
 
-###### End of Document <RELEASE.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/tmp/extension/RELEASE.md\>

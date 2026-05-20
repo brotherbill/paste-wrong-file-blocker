@@ -1,11 +1,11 @@
 # SECURITY  
-Purpose: Defines the security boundaries, guarantees, and prohibitions for PasteShield.  
-###### <C:/dev/repos/paste-shield/SECURITY.md>
+Purpose: Defines the security boundaries, guarantees, and prohibitions for Paste Wrong File Blocker.  
+###### <C:/dev/repos/paste-wrong-file-blocker/SECURITY.md>
 
 ---
 
 ## 1. Security Model  
-PasteShield operates entirely within the VS Code extension sandbox.  
+Paste Wrong File Blocker operates entirely within the VS Code extension sandbox.  
 It performs:
 
 - no network operations  
@@ -13,16 +13,16 @@ It performs:
 - no background execution  
 - no hidden state  
 
-All behavior is triggered explicitly by the operator through the `paste-shield.paste` command.
+All behavior is triggered explicitly by the operator through the `paste-wrong-file-blocker.paste` command.
 
-PasteShield is a **local, deterministic safety system**, not a monitoring tool or security scanner.
+Paste Wrong File Blocker is a **local, deterministic safety system**, not a monitoring tool or security scanner.
 
 ---
 
 ## 2. Threat Model  
 
-### 2.1 Threats PasteShield Mitigates  
-PasteShield protects against:
+### 2.1 Threats Paste Wrong File Blocker Mitigates  
+Paste Wrong File Blocker protects against:
 
 - accidental full‑document replacement  
 - unintended buffer mutation  
@@ -32,7 +32,7 @@ PasteShield protects against:
 - duplicate header/footer injection  
 
 ### 2.2 Threats Out of Scope  
-PasteShield does **not** protect against:
+Paste Wrong File Blocker does **not** protect against:
 
 - malicious extensions  
 - compromised VS Code installations  
@@ -49,7 +49,7 @@ These are explicitly out of scope.
 ## 3. Security Guarantees  
 
 ### 3.1 No External Communication  
-PasteShield performs:
+Paste Wrong File Blocker performs:
 
 - no HTTP requests  
 - no telemetry  
@@ -58,12 +58,12 @@ PasteShield performs:
 - no external API calls  
 
 ### 3.2 No File System Writes  
-PasteShield never writes to disk except through:
+Paste Wrong File Blocker never writes to disk except through:
 
 - operator‑initiated file saves  
 - VS Code’s own editor operations  
 
-PasteShield itself does not mutate files automatically.
+Paste Wrong File Blocker itself does not mutate files automatically.
 
 ### 3.3 No Clipboard Mutation  
 Clipboard contents are:
@@ -74,7 +74,7 @@ Clipboard contents are:
 - never sanitized  
 
 ### 3.4 No Background Behavior  
-PasteShield contains:
+Paste Wrong File Blocker contains:
 
 - no timers  
 - no background listeners  
@@ -83,7 +83,7 @@ PasteShield contains:
 - no hidden activation events  
 
 ### 3.5 No Privilege Escalation  
-PasteShield cannot:
+Paste Wrong File Blocker cannot:
 
 - modify VS Code settings  
 - modify system configuration  
@@ -97,9 +97,9 @@ Modal behavior is deterministic and documented.
 ---
 
 ## 4. Attack Surface Minimization  
-PasteShield minimizes attack surface by:
+Paste Wrong File Blocker minimizes attack surface by:
 
-- using a single command (`paste-shield.paste`)  
+- using a single command (`paste-wrong-file-blocker.paste`)  
 - avoiding global state  
 - avoiding dynamic imports  
 - avoiding reflection  
@@ -127,12 +127,12 @@ Security requirements:
 - Paste is atomic  
 - Override events are logged locally in VS Code’s output channel only  
 
-Multiple overrides in a session require disabling PasteShield.
+Multiple overrides in a session require disabling Paste Wrong File Blocker.
 
 ---
 
 ## 6. Prohibited Behavior  
-PasteShield must never:
+Paste Wrong File Blocker must never:
 
 - send data off‑machine  
 - store data persistently  
@@ -153,7 +153,7 @@ CRITICAL: Loss of Determinism (LOD)
 ---
 
 ## 7. Security Review Requirements  
-Every change to PasteShield must undergo a security review verifying:
+Every change to Paste Wrong File Blocker must undergo a security review verifying:
 
 - no new attack surface was introduced  
 - no new background behavior exists  
@@ -172,4 +172,4 @@ Security review is mandatory for:
 
 ---
 
-###### End of Document <SECURITY.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/tmp/extension/SECURITY.md\>

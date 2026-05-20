@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-wrong-file-blocker/ARCHITECTURE.md>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/ARCHITECTURE.md\>
 
 # Architecture Overview
 
@@ -127,4 +127,4 @@ All enhancements must preserve determinism and operator‑grade clarity.
 
 ---
 
-###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/ARCHITECTURE.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/ARCHITECTURE.md\>

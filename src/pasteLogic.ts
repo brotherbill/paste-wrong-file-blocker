@@ -1,4 +1,4 @@
-// Start of Document \<C:/dev/repos/paste-shield/src/pasteLogic.ts\>
+// Start of Document \</C/dev/repos/paste-wrong-file-blocker/src/pasteLogic.ts\>
 
 import * as vscode from "vscode";
 import { validateWrapperCount } from "./validator";
@@ -32,4 +32,4 @@ export async function executePasteWithValidation(): Promise<void> {
   });
 }
 
-// End of Document \<C:/dev/repos/paste-shield/src/pasteLogic.ts\>
+// End of Document \</C/dev/repos/paste-wrong-file-blocker/src/pasteLogic.ts\>

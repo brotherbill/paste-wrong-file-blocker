@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-wrong-file-blocker/TEST_PLAN.md\>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/TEST_PLAN.md\>
 # TEST_PLAN  
 Purpose: Defines deterministic procedures for verifying all Paste Wrong File Blocker behaviors.
 
@@ -307,4 +307,4 @@ Paste Wrong File Blocker passes the test suite when:
 
 ---
 
-###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/TEST_PLAN.md\>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/TEST_PLAN.md\>

@@ -1,7 +1,7 @@
-###### Start of Document \<C:/dev/repos/paste-shield/ops/WEEKLY_OPERATOR_WORKFLOW.md>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/ops/WEEKLY_OPERATOR_WORKFLOW.md\>
 # WEEKLY_OPERATOR_WORKFLOW.md
 ### Purpose  
-Defines the mandatory weekly operator workflow for the 30‑day PasteShield soak.  
+Defines the mandatory weekly operator workflow for the 30‑day Paste Wrong File Blocker soak.  
 Ensures stability assessment, anomaly consolidation, doctrine updates, and release‑readiness evaluation.
 
 ---------------------------------------------------------------------
@@ -79,4 +79,4 @@ No weekly review is complete until all ten steps are satisfied.
 
 ---------------------------------------------------------------------
 
-###### End of Document \<C:/dev/repos/paste-shield/ops/WEEKLY_OPERATOR_WORKFLOW.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/ops/WEEKLY_OPERATOR_WORKFLOW.md\>

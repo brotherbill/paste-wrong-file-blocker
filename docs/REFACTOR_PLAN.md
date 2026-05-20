@@ -1,7 +1,7 @@
-###### Start of Document \<C:/dev/repos/paste-shield/docs/REFACTOR_PLAN.md\>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/docs/REFACTOR_PLAN.md\>
 # paste-wrong-file-blocker Refactor Plan
 ### Purpose: Defines the refactor scope, affected components, and required alignment with Identity Envelope Doctrine v1.0
-###### \<C:/dev/repos/paste-shield/docs/REFACTOR_PLAN.md\>
+###### \<C:/dev/repos/paste-wrong-file-blocker/docs/REFACTOR_PLAN.md\>
 
 ---------------------------------------------------------------------
 
@@ -214,4 +214,4 @@ Phase 3 is complete when:
 
 ---------------------------------------------------------------------
 
-###### End of Document \<C:/dev/repos/paste-shield/docs/REFACTOR_PLAN.md\>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/docs/REFACTOR_PLAN.md\>

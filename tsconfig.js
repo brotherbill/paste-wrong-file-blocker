@@ -1,6 +1,6 @@
 // tsconfig.js
 // JS mirror of tsconfig.ts for Node build scripts (Internal Only)
-// Start of Document \<C:/dev/repos/paste-wrong-file-blocker/tsconfig.js\>
+// Start of Document \</C/dev/repos/paste-wrong-file-blocker/tsconfig.js\>
 
 exports.tsconfig = {
     compilerOptions: {
@@ -18,4 +18,4 @@ exports.tsconfig = {
     include: ["src"]
 };
 
-// End of Document \<C:/dev/repos/paste-wrong-file-blocker/tsconfig.js\>
+// End of Document \</C/dev/repos/paste-wrong-file-blocker/tsconfig.js\>

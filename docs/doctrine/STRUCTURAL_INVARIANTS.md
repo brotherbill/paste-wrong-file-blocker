@@ -1,9 +1,9 @@
-###### Start of Document \<C:/dev/repos/paste-shield/docs/doctrine/STRUCTURAL_INVARIANTS.md\>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/docs/doctrine/STRUCTURAL_INVARIANTS.md\>
 # STRUCTURAL_INVARIANTS.md
 # Structural Invariants  
 ### Non‑Negotiable Rules Governing All Marked and Unmarked Files
 
-Structural invariants define the **immutable, safety‑critical rules** that govern how files are recognized, validated, and transformed within the PasteShield system.  
+Structural invariants define the **immutable, safety‑critical rules** that govern how files are recognized, validated, and transformed within the Paste Wrong File Blocker system.  
 These invariants apply globally across all doctrines, all Series classifications, and all replacement operations.
 
 No tool, operator, or regeneration step may violate these invariants.
@@ -141,13 +141,13 @@ No drift allowed.
 7.4 No implicit behavior exists.  
 7.5 All structural behavior must be derived from these invariants alone.
 
-###### End of Document \<C:/dev/repos/paste-shield/docs/doctrine/STRUCTURAL_INVARIANTS.md\>
-###### Start of Document \<C:/dev/repos/paste-shield/docs/doctrine/STRUCTURAL_INVARIANTS.md\>
+###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/docs/doctrine/STRUCTURAL_INVARIANTS.md\>
+###### Start of Document \<C:/dev/repos/paste-wrong-file-blocker/docs/doctrine/STRUCTURAL_INVARIANTS.md\>
 # STRUCTURAL_INVARIANTS.md
 # Structural Invariants  
 ### Non‑Negotiable Rules Governing All Marked and Unmarked Files
 
-Structural invariants define the **immutable, safety‑critical rules** that govern how files are recognized, validated, and transformed within the PasteShield system.  
+Structural invariants define the **immutable, safety‑critical rules** that govern how files are recognized, validated, and transformed within the Paste Wrong File Blocker system.  
 These invariants apply globally across all doctrines, all Series classifications, and all replacement operations.
 
 No tool, operator, or regeneration step may violate these invariants.
@@ -285,4 +285,4 @@ No drift allowed.
 7.4 No implicit behavior exists.  
 7.5 All structural behavior must be derived from these invariants alone.
 
-###### End of Document \<C:/dev/repos/paste-shield/docs/doctrine/STRUCTURAL_INVARIANTS.md\>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/docs/doctrine/STRUCTURAL_INVARIANTS.md\>

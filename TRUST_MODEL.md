@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-wrong-file-blocker/docs/TRUST_MODEL.md\>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/TRUST_MODEL.md\>
 # Trust Model
 ### Purpose: Defines what information is trusted, untrusted, and forbidden for identity validation.
 
@@ -96,4 +96,4 @@ Only the editor‑provided path and filename may be trusted.
 
 ---------------------------------------------------------------------
 
-###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/docs/TRUST_MODEL.md\>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/TRUST_MODEL.md\>

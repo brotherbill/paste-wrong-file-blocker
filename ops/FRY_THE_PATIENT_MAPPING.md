@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-shield/ops/FRY_THE_PATIENT_MAPPING.md>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/ops/FRY_THE_PATIENT_MAPPING.md\>
 # FRY_THE_PATIENT_MAPPING.md
 ### Purpose  
 Maps the UL‑term **FRY THE PATIENT** to all ops‑layer doctrines, workflows, and invariants that prevent this failure mode.  
@@ -83,4 +83,4 @@ Any new file must declare whether it intersects with FRY THE PATIENT.
 
 ---------------------------------------------------------------------
 
-###### End of Document \<C:/dev/repos/paste-shield/ops/FRY_THE_PATIENT_MAPPING.md>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/ops/FRY_THE_PATIENT_MAPPING.md\>

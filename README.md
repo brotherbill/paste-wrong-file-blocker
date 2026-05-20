@@ -1,4 +1,4 @@
-###### Start of Document \<C:/dev/repos/paste-wrong-file-blocker/README.md\>
+###### Start of Document \</C/dev/repos/paste-wrong-file-blocker/README.md\>
 
 ###### Paste Wrong File Blocker
 
@@ -32,4 +32,4 @@ None documented.
 ### 0.0.4
 Initial implementation of wrapper‑based paste validation.
 
-###### End of Document \<C:/dev/repos/paste-wrong-file-blocker/README.md\>
+###### End of Document \</C/dev/repos/paste-wrong-file-blocker/README.md\>
